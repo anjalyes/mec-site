@@ -22,7 +22,7 @@
 			                		It was established as a self-financing college with a fair degree of autonomy. 
 			                		The college started functioning in August 1989 in the premises of High School, 
 			                	 	Edapally with three degree courses offered in Biomedical , 
-			                	 	Computer and Electronics Engineering.&nbsp;&nbsp;<a>more....</a>
+			                	 	Computer and Electronics Engineering.&nbsp;&nbsp;<a href="history.php">more....</a>
 			                	</p>
 			                </div>
 	                        <div class="panel-body">
@@ -156,7 +156,7 @@
 	                	 It was established as a self-financing college with a fair degree of autonomy. 
 	                	 The college started functioning in August 1989 in the premises of High School, 
 	                	 Edapally with three degree courses offered in Biomedical , 
-	                	 Computer and Electronics Engineering.&nbsp;&nbsp;<a href="#">more....</a></p>
+	                	 Computer and Electronics Engineering.&nbsp;&nbsp;<a href="history.php">more....</a></p>
 
  					</div>
 				</div>
