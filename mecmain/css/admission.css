@@ -1,0 +1,27 @@
+#admission{
+	margin-right: 12%;
+	margin-left: 12%;
+	text-align: justify;
+}
+#box{
+	background-color: white;
+	color: #575555;
+	padding: 1.5em;
+}
+
+#admission h3{
+	color: #005078;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 2.5em;
+	margin-bottom: 0;
+	margin-top: 1em;
+	border-bottom: 3px solid #005078;
+}
+
+#admission td{
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+	padding-right: 0em;
+
+}

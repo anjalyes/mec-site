@@ -1,0 +1,19 @@
+.form-title {
+  color: #990000;
+  padding-bottom: 50px;
+}
+
+
+
+.form-control {
+  border-radius: 0px;
+}
+label {
+  color: #c30;
+  font-weight: normal;
+
+}
+
+.radio ,.checkbox {
+  margin-left: 15px;
+}
