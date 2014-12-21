@@ -38,10 +38,10 @@
       <div class="col-md-3 col-sm-6 "  >
         <ul class=" footer-nav hundrd" >
           <li class="nav-title">STUDENTS CORNER</li>
-          <li class="nav-item"><a href="#">Application Forms</a></li>
-          <li class="nav-item"><a href="#">Attendance Information</a></li>
-          <li class="nav-item"><a href="#">Sessional Information</a></li>
-          <li class="nav-item"><a href="#">Semester Registration</a></li>
+          <li class="nav-item"><a href="appform.php">Application Forms</a></li>
+          <li class="nav-item"><a href="http://www.mec.ac.in/attn/">Attendance Information</a></li>
+          <li class="nav-item"><a href="http://www.mec.ac.in/sessional-marks/">Sessional Information</a></li>
+          <li class="nav-item"><a href="http://www.mec.ac.in/semreg-2014/">Semester Registration</a></li>
         </ul>
 
 
@@ -56,7 +56,7 @@
           <li class="nav-title">RESOURCES</li>
           <li class="nav-item"><a href="lib.php">Library</a></li>
           <li class="nav-item"><a href="syllabus.php">Syllabus</a></li>
-           <li class="nav-item"><a href="#">MEC mail</a></li>
+           <li class="nav-item"><a href="https://accounts.google.com/AccountChooser?hd=mec.ac.in&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&ss=1&ltmpl=default">MEC mail</a></li>
         </ul>
       </div>
 
@@ -76,10 +76,10 @@
       <div class="col-md-2 col-sm-6 ">
         <ul class=" footer-nav hundrd text-right">
           <li class="nav-title ">LINKS</li>
-          <li class="nav-item "><a href="#">Tenders</a></li>
-          <li class="nav-item"><a href="#">IHRD</a></li>
-          <li class="nav-item"><a href="#">CUSAT</a></li>
-           <li class="nav-item"><a href="#">Mens Hostel</a></li>
+          <li class="nav-item "><a href="tender.php">Tenders</a></li>
+          <li class="nav-item"><a href="http://www.ihrdkerala.org">IHRD</a></li>
+          <li class="nav-item"><a href="http://www.cusat.ac.in/">CUSAT</a></li>
+           <li class="nav-item"><a href="http://www.mecmh.com">Mens Hostel</a></li>
         </ul>
       </div>
 
@@ -88,10 +88,10 @@
       <div class="col-md-3 col-sm-6 " >
         <ul class="  footer-nav hundrd text-right contact">
           <li class="nav-title  ">CONTACT US</li>
-          <li class="nav-item ">The Principal,</li>
-          <li class="nav-item "> Model Engineering College,</li>
-          <li class="nav-item ">Thrikkakara,Kochi,</li>
-          <li class="nav-item "> Kerala.PIN: 682021</li>
+          <li class="nav-item ">The Principal </li>
+          <li class="nav-item "> Model Engineering College </li>
+          <li class="nav-item ">Thrikkakara, Kochi </li>
+          <li class="nav-item "> Kerala. PIN: 682021</li>
           <li class="nav-item "> Contact Id: principal@mec.ac.in</li>
           <li class="nav-item "> Phone/Fax:+91-484-2577379 </li>
         </ul>
