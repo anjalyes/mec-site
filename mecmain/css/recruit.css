@@ -1,0 +1,24 @@
+#recruit {
+	margin-left: 12%;
+	margin-right: 12%;
+}
+#recruit h3{
+	color: #e34947;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 2.5em;
+	margin-bottom: 0;
+	margin-top: 1em;
+	border-bottom: 2px solid #e34947;
+
+}
+#recruit .box1{
+	background-color: white;
+	padding: 1.5em;
+	margin-bottom: 5em;
+}
+
+#recruit img {
+	width: 100%;
+	
+}
