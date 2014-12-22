@@ -2,8 +2,11 @@
 var docElem = window.document.documentElement;
 $(document).ready(function(){
 
-  var $timeline_block = $('.cd-timeline-block');
+   
+	 var $timeline_block = $('.cd-timeline-block');
 
+
+	 //when added overflow occurs in x-direction sccrollbar appears and dissappears.
   //hide timeline blocks which are outside the viewport
   $timeline_block.each(function(){
     if($(this).offset().top> $(window).scrollTop()+$(window).height()*0.75) {
@@ -20,30 +23,15 @@ $(document).ready(function(){
       }
     });
   });
-
-  
-
-    $("#my-calendar").zabuto_calendar({
-        cell_border: true, today: true, show_days: true, weekstartson: 0,
-        legend: [
-            {type: "text", label: "Event", badge: "Date"}
-        ],
-        ajax: {
-            /*url: "show_data.php",*/
-            url: "data.json",
-            modal: true
-        }
-    });
-
   //navbar.js starts
-  var padding = $("#main-content").width()*0.3 ;
+  
   
   $("#main-content").css({"padding-left":"10%","padding-right":"10%"});
     
+  
 
-
-var ht = $("nav").outerHeight(true);
-    function recalcscrolltofix()
+  var ht = $("nav").outerHeight(true);
+    function recalcscrolltofix()   //recalculate scroll to fix 
     {
       
           
@@ -53,17 +41,13 @@ var ht = $("nav").outerHeight(true);
           $(".location").scrollToFixed({ bottom:0,limit: $(".contain2").offset().top-$(".location").height()});
     }
 
-
-    $("#map").hide();
-    $("#location").click(function(){
-        $("#map").slideToggle("slow",load);
-    });
+    
         
 
         
          //icon bar and  button colors
    $(".icon-bar").css({"background-color":"rgb(180,180,180)"});
-   $(".navbar-header button").css({"border-radius":"0px","border":"none"}).hover(
+   $(".navbar-header button").css({"background-color":"rgb(3,113,164)","border-radius":"0px","border":"none"}).hover(
     function ()
     {
       $(".icon-bar").css({"background-color":"white"});
@@ -127,6 +111,18 @@ var ht = $("nav").outerHeight(true);
 
     }
 
+    //mainpage
+    //setting color of links in about-us accordion to "blue" (cant do directly cause of conflict.)
+    $("#abvm .panel-title a").click(function(){
+      setTimeout(function (){
+
+        recalcscrolltofix();
+       
+
+      },500);
+      $(this).css({"color":"#0371A3"});
+    });
+
 
     height=$("#header").outerHeight(true);
 
@@ -152,11 +148,6 @@ var ht = $("nav").outerHeight(true);
         else
         { read=true;
           once=false;
-          
-          $("#navbar-main [data-parent='#nav-parent']").addClass("collapsed");
-          for(i=0;i<6;i++)
-          $("#navbar-main #nav-cont" +i).removeClass("in");
-
               $("nav").css({"position":"relative","top":"0px","z-index":"10000"});
              $("nav").scrollToFixed();
              $("#navigation").css({"height":ht});
@@ -173,10 +164,10 @@ var ht = $("nav").outerHeight(true);
 
     });
 
-
+    //when window resized
     $(window).resize(function ()
     {
-      
+      //recalculating scrolltofixed
       setTimeout(function (){
           recalcscrolltofix()
         },500);
@@ -185,7 +176,7 @@ var ht = $("nav").outerHeight(true);
       {
 
       
-      $("#nav" + i).css({"background-color":"#0371A4","color":"rgb(250,250,250)"});
+      $("#nav" + i).css({"background-color":"rgb(3,113,164)","color":"rgb(250,250,250)"});
       }
       
       height=$("#header").outerHeight(true);
@@ -194,12 +185,7 @@ var ht = $("nav").outerHeight(true);
       var win_width = $(window).width();
 
   
-
-     
-
-
-
-      if((win_width + sclbar_width)< 768)
+      if((win_width + sclbar_width)< 768)//changing navbar effects accordingly
       { 
         grtr = false;
         if(!lessr)
@@ -255,6 +241,7 @@ var ht = $("nav").outerHeight(true);
     /*hover effect in widescreens>768*/
 
 
+//if scrolled to top above opened navbar ..autoclosing it.
   $(document).scroll(function ()
   {
     if((window.pageYOffset || docElem.scrollTop)>height)
@@ -279,11 +266,10 @@ var ht = $("nav").outerHeight(true);
 
 
 
-
-var k =null;
+  //when clicked on tab elements in accordion navbar...highlighting when clicked
+  var k =null;
   $("#navbar-main [data-parent='#nav-parent']").click(function ()
     {
-      
       setTimeout(function()
         {
           recalcscrolltofix();
@@ -293,7 +279,7 @@ var k =null;
       if(k!=null)
       {
         $(k).data("clicked",false);
-        $(k).css({"background-color":"#0371A4","color":"rgb(250,250,250)"});
+        $(k).css({"background-color":"rgb(3,113,164)","color":"rgb(250,250,250)"});
       }
 
       $(this).css({"background-color":"rgb(0,50,80)","color":"rgb(250,250,250)"});
@@ -303,10 +289,10 @@ var k =null;
       
 
 
-    });
+    });//click fn ends
 
-
-  $(".navlinks").hover(
+  //in hovering navbar showing contents accordingly
+   $(".navlinks").hover(
     function ()
     {    var win_width = $(window).width();
              
@@ -369,7 +355,7 @@ var k =null;
 
             else
             {
-              $("#nav" + (i+1)).css({"background-color": "#0371A4","color":"rgb(250,250,250)"});
+              $("#nav" + (i+1)).css({"background-color":"rgb(3,113,164)","color":"rgb(250,250,250)"});
                             
             }
             
@@ -410,17 +396,19 @@ var k =null;
     {
 
       if(!($("#nav" + i).data("clicked")))//check whether clicked
-      $("#nav" + i).css({"background-color": "#0371A4","color":"rgb(250,250,250)"});
+      $("#nav" + i).css({"background-color":"rgb(3,113,164)","color":"rgb(250,250,250)"});
 
      
     
     }
     
     
+    
     }/*mouseout functn ends*/
 
     ); /*hover check on navs ends*/
 
+//making content appear on popdiv as links are hovered
 var nav_id;
 $("#popdiv a").hover(function ()
   {
@@ -440,80 +428,31 @@ $("#popdiv a").hover(function ()
 
 
 
+//clubs
+$("#clubs .cd-timeline-content .dntshow").hide();
+$("#clubs .cd-timeline-content .cd-read-more").click(function(){
+  $(this).siblings(".dntshow").toggle("500");
+   setTimeout(function (){
 
-
-
-
-
-
-
-//news and events js starts...
-
-    
-
-  /*initialising the marquee and selecting initially public */
-   $("#public").addClass("active in").css({"display":"block"}).siblings().css({"display":"none"});
-   $("#line1").addClass("color1");
-   
-  $('.nae-marquee').marquee();
-   
-      
-         
-      
-     /*selecting the item to show according to clicked button*/
-    $(".nae-click").click(function ()
-      {  
-        $($(this).children().attr("href")).addClass("active").css({"display":"block"}).siblings().css({"display":"none"});
-        
-        for(var i=1;i<4;i++)
-        { 
-          var k = "line" + i;
-          if($(this).find("div").attr("id")==k)
-            {
-              $("#line" + i).addClass("color" + i);
-              clicked=i;
-            }
-            else
-            {
-               $("#line" + i).removeClass("color" + i);
-            }
-
-        }
+        recalcscrolltofix();
        
-        
-      $('.nae-marquee').marquee();
-    });
 
-  
-
-  var mq = $('.nae-marquee').marquee(); /*making the marquee stop when hovered and resume when out*/
-  $('#nae-content').mouseover(function()
-    {
-      mq.marquee('pause');
-
-    });
-  $('#nae-content').mouseout(function()
-    {
-      mq.marquee('resume');
-  
-    });
-//news and events.js ends
-
+      },500);
+});
 //footer2.js..
-   $(".location").scrollToFixed({ bottom:0,limit: $(".contain2").offset().top-$(".location").height()});
+  $(".location").scrollToFixed({ bottom:0,limit: $(".contain2").offset().top-$(".location").height()});
 
 $("nav").scrollToFixed();
 
-    
+//map
 
-        
+//hide the map initially and load on toggle
+    $("#map").hide();
+    $("#location").click(function(){
+        $("#map").slideToggle("slow",load);
     });
 
-
-
-
-
-
+    
 function load() 
   {
       if (GBrowserIsCompatible()) 
@@ -702,3 +641,82 @@ var point = new GLatLng(10.070821, 76.331962);
   map.addOverlay(createMarker7(point)); 
 }
 }   
+
+//footer2.js ends
+
+//news and events js starts...
+
+    
+
+  /*initialising the marquee and selecting initially public */
+   $("#public").addClass("active in").css({"display":"block"}).siblings().css({"display":"none"});
+   $("#line1").addClass("color1");
+   
+  $('.nae-marquee').marquee();
+   
+      
+         
+      
+     /*selecting the item to show according to clicked button*/
+    $(".nae-click").click(function ()
+      {  
+        $($(this).children().attr("href")).addClass("active").css({"display":"block"}).siblings().css({"display":"none"});
+        
+        for(var i=1;i<4;i++)
+        { 
+          var k = "line" + i;
+          if($(this).find("div").attr("id")==k)
+            {
+              $("#line" + i).addClass("color" + i);
+              clicked=i;
+            }
+            else
+            {
+               $("#line" + i).removeClass("color" + i);
+            }
+
+        }
+       
+        
+      $('.nae-marquee').marquee();
+    });
+
+  
+
+  var mq = $('.nae-marquee').marquee(); /*making the marquee stop when hovered and resume when out*/
+  $('#nae-content').mouseover(function()
+    {
+      mq.marquee('pause');
+
+    });
+  $('#nae-content').mouseout(function()
+    {
+      mq.marquee('resume');
+  
+    });
+//news and events.js ends
+
+
+
+
+
+
+
+//calendar initialisation
+ $("#my-calendar").zabuto_calendar({
+        cell_border: true, today: true, show_days: true, weekstartson: 0,
+        legend: [
+            {type: "text", label: "Event", badge: "Date"}
+        ],
+        ajax: {
+            /*url: "show_data.php",*/
+            url: "data.json",
+            modal: true
+        }
+    });
+ // calendar ends   
+        
+    });
+
+
+
