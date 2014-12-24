@@ -41,7 +41,17 @@
 <body style="background-color:#E9EAEB">
 
 
-<?php include "navbar.php" ?>
+<div class="container-fluid">
+		<div class="row">
+			<?php include "header.php" ?>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<?php include "navbar.php" ?>
+		</div>
+	</div>
 <div class="container" style="margin-bottom:5%;">
 
   	<div class="row" style="margin-bottom:5%;" >

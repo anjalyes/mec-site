@@ -1,10 +1,51 @@
 <div id="dept">
-<h2 style="font-family: Open Sans; font-weight: 300; font-size: 40px; margin: 35px 0px;">Electrical Engineering </h2>
+  <h2 style="font-family: Open Sans; font-weight: 300; font-size: 40px; margin: 35px 0px;">Electrical Engineering </h2>
 <div class="row">
   <div class="col-md-12">
     <div class="mypanel">
       <div class="tabtable tabs-left clearfix">
-        <ul id="myTab1" class="nav nav-tabs tab" style="margin-right:0px;">
+         <ul id="myTab1" class="nav nav-tabs tab hidden-sm hidden-md hidden-lg" style="margin-right:0px;">
+            <li class="active t">
+              <a data-toggle="tab" href="#about">
+                <h4 class="tb"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#hod">
+               <h4 class="tb"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#faculty">
+               <h4 class="tb"><i class="fa fa-users"></i></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#facilities">
+                <h4 class="tb"><i class="fa fa-wrench"></i></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#resources">
+                <h4 class="tb"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#associations">
+                <h4 class="tb"><i class="fa fa-university"></i></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#achievements">
+                <h4 class="tb"><i class="fa fa-trophy"></i></h4>
+              </a>
+          </li>
+        </ul>
+
+
+
+
+        <ul id="myTab1" class="nav nav-tabs tab hidden-xs" style="margin-right:0px;">
           <li class="active t">
             <a data-toggle="tab" href="#about">
                 <h4 class="tb">About</h4>
@@ -60,17 +101,28 @@
           <div id="hod" class="tab-pane fade">
             <div class="hod">
               <div class="line"><h4>Dr. Bindu V </h4></div>
-                <img src="images/photo.jpg" class="pull-right" style="margin:27px 24px 5px;">
+                <img src="images/photo.jpg" class="pull-right hidden-xs" style="margin:27px 24px 5px;">
+                <img src="images/photo.jpg" class="hidden-sm hidden-md hidden-lg" style="padding-top: 10px;">
             </div>
             <br/>
 
-            <p>Head of Department, Electrical Engineering<br>
+            <p class="hidden-xs">Head of Department, Electrical Engineering<br>
               Associate Professor<br>
                 B. Tech. in Electrical & Elctronics Engineering from Regiona Engineering College, Calicut in the year 1995. 
             <br>M Tech in Electrical Engineering (Energy Systems) from Regional Engineering College, Calicut in the year 1999
             <br>Ph. D. from CUSAT in the year 2013.<br><br>
             <i class="fa fa-phone"><span>&nbsp;&nbsp;04842575370 (305), +918547310981. </span></i><br/>
             <i class="fa fa-envelope"><span>&nbsp;&nbsp; bindhuv@mec.ac.in </span></i><br></p>
+             <span class="hidden-sm hidden-md hidden-lg">
+              Head of Department of Electrical Engineering<br>
+              Associate Professor<br>
+               B. Tech. in Electrical & Elctronics Engineering from Regiona Engineering College, Calicut in the year 1995. 
+            <br>M Tech in Electrical Engineering (Energy Systems) from Regional Engineering College, Calicut in the year 1999
+            <br>Ph. D. from CUSAT in the year 2013.
+              
+            <br><br>
+            <i class="fa fa-phone"><span>&nbsp;&nbsp;04842575370 (305), +918547310981.</span></i><br>
+            <i class="fa fa-envelope"><span>&nbsp;&nbsp;bindhuv@mec.ac.in </span></i><br></span>
 
             <div class="hod line"><h4>Experience</h4></div>
             <br/>
@@ -96,54 +148,114 @@
             </p>
           </div>
 
-          <div id="faculty" class="tab-pane fade" >             
-            <img src="images/photo.jpg" class="imag"> <h4 class="line1">Dr. Bindu V </h4>
-            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </p><br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"> <h4 class="line1">Leena T Timothy</h4>
-              <p>&nbsp;&nbsp;&nbsp;Asst. Prof in Electrical Engg </p>
+          <div id="faculty" class="tab-pane fade" > 
+          <div class="hidden-sm hidden-md hidden-lg">            
+            <img src="images/photo.jpg" class=" img img-responsive"> <h4>Dr. Bindu V </h4>
+            <p>Head Of Department, Associate Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Dr. Bindu V</h4>
+            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Bindu C J</h4>
-              <p> &nbsp;&nbsp;&nbsp;Asst Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"> <h4>Leena T Timothy</h4>
+              <p>Asst. Prof in Electrical Engg </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Leena T Timothy</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst. Prof in Electrical Engg </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">ArunPrasad K M</h4>
-              <p> &nbsp;&nbsp;&nbsp;Asst Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"><h4>Bindu C J</h4>
+              <p> Asst Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Bindu C J</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst Professor </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Shaija P J</h4>
-              <p> &nbsp;&nbsp;&nbsp;Asst Professor in Electrical Engg</p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"><h4>ArunPrasad K M</h4>
+              <p> Asst Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">ArunPrasad K M</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst Professor </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Vidhya K</h4>
-              <p> &nbsp;&nbsp;&nbsp; </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"><h4>Shaija P J</h4>
+              <p> Asst Professor</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Shaija P J</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst Professor </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Praveen Joseph</h4>
-              <p>&nbsp;&nbsp;&nbsp;   Asst Professor Electrical Engg </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"><h4>Vidhya K</h4>
+              <p>  Asst Professor</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Vidhya K</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst Professor </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Reshma Sara Rajan</h4>
-              <p> &nbsp;&nbsp;&nbsp;Asst Professor in Electrical Engg </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"><h4>Praveen Joseph</h4>
+              <p>   Asst Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Praveen Joseph</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst Professor</p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Sunil Kumar K A </h4>
-              <p>&nbsp;&nbsp;&nbsp; 
-  Technician Grade II </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"><h4>Reshma Sara Rajan</h4>
+              <p> Asst Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Reshma Sara Rajan</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst Professor </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Vinod Joy </h4>
-              <p> &nbsp;&nbsp;&nbsp;Workshop Assistant </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"><h4>Sunil Kumar K A </h4>
+              <p>  Technician Grade II </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Sunil Kumar K A </h4>
+            <p>&nbsp;&nbsp;&nbsp;Technician Grade II </p>
+          </div>
+            <br><br>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class=" img img-responsive"><h4>Vinod Joy </h4>
+              <p> Workshop Assistant </p>
+            </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Vinod Joy</h4>
+            <p>&nbsp;&nbsp;&nbsp;Workshop Assistant </p>
+          </div>
             <br><br>
            
           </div>
@@ -216,7 +328,6 @@
   </div>
 </div>
 
-</div>
 </div>
 </div>
 </div>

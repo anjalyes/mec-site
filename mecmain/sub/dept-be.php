@@ -152,7 +152,7 @@
           <div id="faculty" class="tab-pane fade" > 
           <div class="hidden-sm hidden-md hidden-lg">            
             <img src="images/photo.jpg" class=" img img-responsive"> <h4>Dr. Jessy John</h4>
-            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </p>
+            <p>Head Of Department, Associate Professor </p>
           </div>
           <div class="hidden-xs">            
             <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Dr. Jessy John</h4>
@@ -163,7 +163,7 @@
 
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"> <h4>Dr.V.V. Ittoop</h4>
-              <p>&nbsp;&nbsp;&nbsp;Associate professor</p>
+              <p>Associate professor</p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"> <h4 class="line1">Dr.V.V. Ittoop</h4>
@@ -174,16 +174,18 @@
 
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Minimol B</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor </p>
+              <p> Associate Professor </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Minimol B</h4>
               <p> &nbsp;&nbsp;&nbsp;Associate Professor </p>
             </div>
             <br><br>
+
+
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Sajitha S</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+              <p> Assistant Professor </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Sajitha S</h4>
@@ -192,7 +194,7 @@
             <br><br>
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Vijaya Lakshmi K</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+              <p> Assistant Professor </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Vijaya Lakshmi K</h4>
@@ -201,7 +203,7 @@
             <br><br>
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Sincy P S</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+              <p>Assistant Professor </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Sincy P S</h4>
@@ -210,7 +212,7 @@
             <br><br>
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Sruthy S</h4>
-              <p>&nbsp;&nbsp;&nbsp; Assistant Professor </p>
+              <p>Assistant Professor </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Sruthy S</h4>
@@ -219,7 +221,7 @@
             <br><br>
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Suja Markose</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+              <p> Assistant Professor </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Suja Markose</h4>
@@ -228,7 +230,7 @@
             <br><br>
             <div class="hodden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Nisha Krishnan</h4>
-              <p>&nbsp;&nbsp;&nbsp; Assistant Professor </p>
+              <p> Assistant Professor </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Nisha Krishnan</h4>
@@ -237,7 +239,7 @@
             <br><br>
             <div class="hidden-md hidden-sm hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Hycinth Thomas</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+              <p> Assistant Professor </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Hycinth Thomas</h4>
@@ -246,7 +248,7 @@
             <br><br>
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Bella Jacob</h4>
-              <p> &nbsp;&nbsp;&nbsp;Foreman </p>
+              <p> Foreman </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Bella Jacob</h4>
@@ -255,7 +257,7 @@
             <br><br>
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Geethu Gopi</h4>
-              <p> &nbsp;&nbsp;&nbsp;Trade Instructor Grade II </p>
+              <p> Trade Instructor Grade II </p>
             </div>
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Geethu Gopi</h4>
@@ -264,7 +266,7 @@
             <br><br>
             <div class="hidden-sm hidden-md hidden-lg">
               <img src="images/photo.jpg" class="img img-responsive"><h4>Vidya K</h4>
-              <p> &nbsp;&nbsp;&nbsp;Trade Instructor Grade II </p>
+              <p> Trade Instructor Grade II </p>
             </div> 
             <div class="hidden-xs">
               <img src="images/photo.jpg" class="imag img img-responsive"><h4 class="line1">Vidya K</h4>

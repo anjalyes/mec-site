@@ -1,10 +1,54 @@
 <div id="dept">
-<h2 style="font-family: Open Sans; font-weight: 300; font-size: 40px; margin: 35px 0px;">Electronics Engineering </h2>
-<div class="row">
-  <div class="col-md-12">
-    <div class="mypanel">
-      <div class="tabtable tabs-left clearfix">
-        <ul id="myTab1" class="nav nav-tabs tab" style="margin-right:0px;">
+  <h2 style="font-family: Open Sans; font-weight: 300; font-size: 40px; margin: 35px 0px;">Electronics Engineering </h2>
+
+    <div class="row">
+
+      <div class="col-md-12">
+
+        <div class="mypanel">
+          <div class="tabtable tabs-left clearfix">
+
+             <div class="tabtable tabs-left clearfix">
+
+           <ul id="myTab1" class="nav nav-tabs tab hidden-sm hidden-md hidden-lg" style="margin-right:0px;">
+          <li class="active t">
+            <a data-toggle="tab" href="#about">
+                <h4 class="tb"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#hod">
+               <h4 class="tb"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#faculty">
+               <h4 class="tb"><i class="fa fa-users"></i></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#facilities">
+              <h4 class="tb"><i class="fa fa-wrench"></i></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#resources">
+              <h4 class="tb"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#associations">
+              <h4 class="tb"><i class="fa fa-university"></i></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#achievements">
+              <h4 class="tb"><i class="fa fa-trophy"></i></h4>
+            </a>
+          </li>
+        </ul>
+
+         <ul id="myTab1" class="nav nav-tabs tab hidden-xs" style="margin-right:0px;">
           <li class="active t">
             <a data-toggle="tab" href="#about">
                 <h4 class="tb">About</h4>
@@ -63,17 +107,27 @@
           <div id="hod" class="tab-pane fade">
             <div class="hod">
               <div class="line"><h4>Dr. Mini M.G </h4></div>
-                <img src="images/photo.jpg" class="pull-right" style="margin:27px 24px 5px;">
+                <img src="images/photo.jpg" class="pull-right hidden-xs" style="margin:27px 24px 5px;">
+                <img src="images/photo.jpg" class="hidden-sm hidden-md hidden-lg" style="padding-top: 10px;">
             </div>
             <br/>
 
-            <p>Head of Department of Electronics Engineering <br>
+            <p class="hidden-xs">Head of Department of Electronics Engineering <br>
               Associate Professor<br>
               MTech. in Digital Electronics from Cochin University of Science and Technology,Cochin ,1994
 First Class
             <br><br>
             <i class="fa fa-phone"><span>&nbsp;&nbsp; 0484 2606658</span></i><br/>
             <i class="fa fa-envelope"><span>&nbsp;&nbsp;mininair@mec.ac.in</span></i><br></p>
+
+             <span class="hidden-sm hidden-md hidden-lg">
+              Head of Department of Computer Engineering<br>
+              Associate Professor
+              
+            <br><br>
+            <i class="fa fa-phone"><span>&nbsp;&nbsp;+91.484.2575370 Ext: 222</span></i><br>
+            <i class="fa fa-envelope"><span>&nbsp;&nbsp;hodcs@mec.ac.in</span></i><br></span>
+
 
             <div class="hod line"><h4>Experience</h4></div>
             <br/>
@@ -111,132 +165,273 @@ First Class
             </p>
           </div>
 
-          <div id="faculty" class="tab-pane fade" >             
-            <img src="images/photo.jpg" class="imag"> <h4 class="line1">Dr.Mini.M.G</h4>
-            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </p><br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"> <h4 class="line1">Dr.Jayasree V K</h4>
-              <p>&nbsp;&nbsp;&nbsp;Associate professor</p>
+          <div id="faculty" class="tab-pane fade" >
+          <div  class="hidden-sm hidden-md hidden-lg">             
+            <img src="images/photo.jpg" class="img img-responsive"> <h4 >Dr.Mini.M.G</h4>
+            <p>Head Of Department, Associate Professor </p>
+          </div>
+           <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Dr.Mini.M.G</h4>
+            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </p>
+          </div>
+
+
+          <br><br>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"> <h4 >Dr.Jayasree V K</h4>
+              <p>Associate professor</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Dr.Jayasree V K</h4>
+            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Jayachandran E S</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Jayachandran E S</h4>
+              <p>Associate Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Jayachandran E S</h4>
+            <p>&nbsp;&nbsp;&nbsp; Associate Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Laila D</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Laila D</h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Laila D</h4>
+            <p>&nbsp;&nbsp;&nbsp;HAssistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Sumitha Mathew </h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+         
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Shiji T P</h4>
+              <p>Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Shiji T P</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor</p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Shiji T P</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Jibi John</h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Jibi John</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Jibi John</h4>
-              <p>&nbsp;&nbsp;&nbsp; Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Vinitha George E</h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Vinitha George E</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Vinitha George E</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Anjana Devi S </h4>
+              <p> Assistant Professor (SG)</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Anjana Devi S</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor (SG) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Anjana Devi S </h4>
-              <p>&nbsp;&nbsp;&nbsp; Assistant Professor (SG)</p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Joseph George K.M</h4>
+              <p> Assistant Professor (Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Joseph George K.M</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Joseph George K.M</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor (Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Sudheer Babu P</h4>
+              <p> Assistant Professor  (Sr Scale)</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Sudheer Babu P</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">SUDHEERBABU P</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale)</p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Jagatheesh Kumar P   </h4>
+              <p> Assistant Professor  (Sr Scale) </p>
             </div>
-            <br><br><div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Jagatheesh Kumar P   </h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
-            </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Jagatheesh Kumar P</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Aparna Devi P.S </h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Aparna Devi P.S </h4>
+              <p> Assistant Professor  (Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Aparna Devi P.S</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Sunith C.K</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Sunith C.K</h4>
+              <p> Assistant Professor  (Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Sunith C.K</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Swapna P.P</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor (Sr Scale)</p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Swapna P.P</h4>
+              <p> Assistant Professor (Sr Scale)</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Swapna P.P</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor  (Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Rashid M E</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Rashid M E</h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Rashid M E</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">BINESH T</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Bineesh T</h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Bineesh T</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">THUSHARA H P</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+           
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Sheeba P S</h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Sheeba P S</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Sheeba P S</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Arun C.R</h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Arun C.R</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">ARUN C.R</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Rashida K</h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Rashida K</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">RASHIDA K</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 class="line1">Jaisy M A</h4>
+              <p> Assistant Professor </p>
             </div>
+            <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Jaisy M A</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">JAMSHI K U</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <imgTechnician Grade 1  </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Natheera M A</h4>
+            <p>&nbsp;&nbsp;&nbsp;Technician Grade </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Jaisy M A</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Geetha Nair</h4>
+              <p>   Technician Grade 2 </p>
             </div>
-            <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">FELIX ZAKHARIA</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor  </p>
-            </div>
-            <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Natheera M A </h4>
-              <p> &nbsp;&nbsp;&nbsp;Technician Grade 1  </p>
-            </div>
-            <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Geetha Nair</h4>
-              <p> &nbsp;&nbsp;&nbsp;  Technician Grade 2 </p>
-            </div>  
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Geetha Nair</h4>
+            <p>&nbsp;&nbsp;&nbsp;Technician Grade 2 </p>
+          </div>
+
+
           </div>
 
           <div id="facilities" class="tab-pane fade" >
@@ -340,7 +535,6 @@ First Class
   </div>
 </div>
 
-</div>
 </div>
 </div>
 </div>

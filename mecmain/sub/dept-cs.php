@@ -1,19 +1,61 @@
 <div id="dept">
-<h2 style="font-family: Open Sans; font-weight: 300; font-size: 40px; margin: 35px 0px;">Computer Engineering</h2>
-<div class="row">
-  <div class="col-md-12">
-    <div class="mypanel">
-      <div class="tabtable tabs-left clearfix">
-        <ul id="myTab1" class="nav nav-tabs tab" style="margin-right:0px;">
+  <h2 style="font-family: Open Sans; font-weight: 300; font-size: 40px; margin: 35px 0px;">Computer Engineering</h2>
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="mypanel">
+
+        <div class="tabtable tabs-left clearfix">
+
+           <ul id="myTab1" class="nav nav-tabs tab hidden-sm hidden-md hidden-lg" style="margin-right:0px;">
           <li class="active t">
             <a data-toggle="tab" href="#about">
-                <h4 class="tb">About</h4>
+                <h4 class="tb"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></h4>
             </a>
           </li>
           <li>
             <a data-toggle="tab" href="#hod">
-               <h4 class="tb">HOD</h4>
+               <h4 class="tb"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></h4>
             </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#faculty">
+               <h4 class="tb"><i class="fa fa-users"></i></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#facilities">
+              <h4 class="tb"><i class="fa fa-wrench"></i></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#resources">
+              <h4 class="tb"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#associations">
+              <h4 class="tb"><i class="fa fa-university"></i></h4>
+            </a>
+          </li>
+          <li>
+            <a data-toggle="tab" href="#achievements">
+              <h4 class="tb"><i class="fa fa-trophy"></i></h4>
+            </a>
+          </li>
+        </ul>
+
+          <ul id="myTab1" class="nav nav-tabs tab hidden-xs" style="margin-right:0px;">
+            <li class="active t">
+              <a data-toggle="tab" href="#about">
+               <h4 class="tb">About</h4>
+              </a>
+            </li>
+           <li>
+              <a data-toggle="tab" href="#hod">
+               <h4 class="tb">HOD</h4>
+              </a>
           </li>
           <li>
             <a data-toggle="tab" href="#faculty">
@@ -67,118 +109,277 @@
           <div id="hod" class="tab-pane fade">
             <div class="hod">
               <div class="line"><h4>Ahammed Siraj K K</h4></div>
-                <img src="images/photo.jpg" class="pull-right" style="margin:27px 24px 5px;">
+                <img src="images/photo.jpg" class="pull-right hidden-xs" style="margin:27px 24px 5px;">
+                <img src="images/photo.jpg" class="hidden-sm hidden-md hidden-lg" style="padding-top: 10px;">
             </div>
             <br/>
 
-            <p>Head of Department of Computer Engineering<br>
+            <p class="hidden-xs">Head of Department of Computer Engineering<br>
               Associate Professor<br>
              
             <br><br>
             <i class="fa fa-phone"><span>&nbsp;&nbsp;+91.484.2575370 Ext: 222</span></i><br/>
             <i class="fa fa-envelope"><span>&nbsp;&nbsp;hodcs@mec.ac.in</span></i><br></p>
+
+             <span class="hidden-sm hidden-md hidden-lg">
+              Head of Department of Computer Engineering<br>
+              Associate Professor
+              
+            <br><br>
+            <i class="fa fa-phone"><span>&nbsp;&nbsp;+91.484.2575370 Ext: 222</span></i><br>
+            <i class="fa fa-envelope"><span>&nbsp;&nbsp;hodcs@mec.ac.in</span></i><br></span>
 </div>
 
+          <div id="faculty" class="tab-pane fade" >
 
-          <div id="faculty" class="tab-pane fade" >             
-            <img src="images/photo.jpg" class="imag"> <h4 class="line1">Ahammed Siraj K K </h4>
-            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </p><br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"> <h4 class="line1">Preetha Theresa Joy</h4>
-              <p>&nbsp;&nbsp;&nbsp;Associate professor</p>
+            <div class="hidden-sm hidden-md hidden-lg">             
+              <img src="images/photo.jpg" class="img img-responsive"> <h4 >Ahammed Siraj K K </h4>
+               <p>Head Of Department, Associate Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Ahammed Siraj K K</h4>
+            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </p>
+          </div>
+
+            <br><br> 
+
+
+             <div class="hidden-sm hidden-md hidden-lg"> 
+              <img src="images/photo.jpg" class="img img-responsive"> <h4 >Preetha Theresa Joy</h4>
+              <p>Associate professor</p>
+            </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Preetha Theresa Joy</h4>
+            <p>&nbsp;&nbsp;&nbsp; Associate Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Murali Mohanan</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Murali Mohanan</h4>
+              <p> Associate Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1"Murali Mohanan</h4>
+            <p>&nbsp;&nbsp;&nbsp; Associate Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Priya S </h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Priya S </h4>
+              <p> Assistant Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Priya S </h4>
+            <p>&nbsp;&nbsp;&nbsp; Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Jayasree K </h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor(Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Jayasree K </h4>
+              <p> Assistant Professor(Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Jayasree K</h4>
+            <p>&nbsp;&nbsp;&nbsp; Assistant Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Lisha P P</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor(Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Lisha P P</h4>
+              <p> Assistant Professor(Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Lisha P P</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor(Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Manju K</h4>
-              <p>&nbsp;&nbsp;&nbsp; Assistant Professor(Sr Scale)  </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Manju K</h4>
+              <p> Assistant Professor(Sr Scale)  </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Manju K</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor(Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Vineetha K V</h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor(Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Vineetha K V</h4>
+              <p>Assistant Professor(Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Vineetha K V</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor(Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Preena K P </h4>
-              <p>&nbsp;&nbsp;&nbsp; Assistant Professor(Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Preena K P </h4>
+              <p> Assistant Professor(Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Preena K P</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor(Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Bijumon T </h4>
-              <p> &nbsp;&nbsp;&nbsp;Assistant Professor (Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Bijumon T </h4>
+              <p>Assistant Professor (Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Bijumon T</h4>
+            <p>&nbsp;&nbsp;&nbsp;Assistant Professor(Sr Scale) </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Aysha Fymin Majeed</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Aysha Fymin Majeed</h4>
+              <p>Associate Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Aysha Fymin Majeed</h4>
+            <p>&nbsp;&nbsp;&nbsp; Associate Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Jaimon Jacob</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Jaimon Jacob</h4>
+              <p>Associate Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Jaimon Jacob</h4>
+            <p>&nbsp;&nbsp;&nbsp; Associate Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Annie Julie Joseph</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Annie Julie Joseph</h4>
+              <p> Associate Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Annie Julie Joseph</h4>
+            <p>&nbsp;&nbsp;&nbsp;Associate Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Antony Jesto</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Antony Jesto</h4>
+              <p> Associate Professor </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Antony Jesto</h4>
+            <p>&nbsp;&nbsp;&nbsp; Associate Professor </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Sunitha P George</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor (Sr Scale) </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Sunitha P George</h4>
+              <p>Associate Professor (Sr Scale) </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Sunitha P George</h4>
+            <p>&nbsp;&nbsp;&nbsp;Associate Professor (Sr Scale)</p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Nimi Prakash P</h4>
-              <p> &nbsp;&nbsp;&nbsp;System Analyst </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Nimi Prakash P</h4>
+              <p> System Analyst </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Nimi Prakash P</h4>
+            <p>&nbsp;&nbsp;&nbsp;System Analyst </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Sany Joseph</h4>
-              <p> &nbsp;&nbsp;&nbsp;System Analyst </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Sany Joseph</h4>
+              <p> System Analyst </p>
             </div>
-            <br><br><div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Anne Jacob Silja</h4>
-              <p> &nbsp;&nbsp;&nbsp;System Analyst </p>
-            </div>
-            <br><br><div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Binoy Francis</h4>
-              <p> &nbsp;&nbsp;&nbsp;System Analyst </p>
-            </div>
-            <br><br><div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Ajit Kumar</h4>
-              <p> &nbsp;&nbsp;&nbsp;Jr. System Analyst </p>
-            </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Sany Joseph</h4>
+            <p>&nbsp;&nbsp;&nbsp;System Analyst </p>
+          </div>
+
             <br><br>
-            <div>
-              <img src="images/photo.jpg" class="imag"><h4 class="line1">Reji Kumar M K</h4>
-              <p> &nbsp;&nbsp;&nbsp;Foreman </p>
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Anne Jacob Silja</h4>
+              <p>System Analyst </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Anne Jacob Silja</h4>
+            <p>&nbsp;&nbsp;&nbsp;System Analyst </p>
+          </div>
+
+            <br><br>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Binoy Francis</h4>
+              <p> System Analyst </p>
+            </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Binoy Francis</h4>
+            <p>&nbsp;&nbsp;&nbsp;System Analyst </p>
+          </div>
+
+            <br><br>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4 >Ajit Kumar</h4>
+              <p> Jr. System Analyst </p>
+            </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Ajit Kumar</h4>
+            <p>&nbsp;&nbsp;&nbsp;Jr. System Analyst </p>
+          </div>
+
+            <br><br>
+
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/photo.jpg" class="img img-responsive"><h4>Reji Kumar M K</h4>
+              <p>Foreman </p>
+            </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Reji Kumar M K</h4>
+            <p>&nbsp;&nbsp;&nbsp;Foreman </p>
+          </div>
+
             <br><br>
             
           </div>

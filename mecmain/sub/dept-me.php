@@ -1,10 +1,52 @@
 <div id="dept">
-<h2 style="font-family: Open Sans; font-weight: 300; font-size: 40px; margin: 35px 0px;">Mechanical Engineering</h2>
+  <h2 style="font-family: Open Sans; font-weight: 300; font-size: 40px; margin: 35px 0px;">Mechanical Engineering</h2>
 <div class="row">
   <div class="col-md-12">
     <div class="mypanel">
       <div class="tabtable tabs-left clearfix">
-        <ul id="myTab1" class="nav nav-tabs tab" style="margin-right:0px;">
+           <ul id="myTab1" class="nav nav-tabs tab hidden-sm hidden-md hidden-lg" style="margin-right:0px;">
+            <li class="active t">
+              <a data-toggle="tab" href="#about">
+                <h4 class="tb"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#hod">
+               <h4 class="tb"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#faculty">
+               <h4 class="tb"><i class="fa fa-users"></i></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#facilities">
+                <h4 class="tb"><i class="fa fa-wrench"></i></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#resources">
+                <h4 class="tb"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#associations">
+                <h4 class="tb"><i class="fa fa-university"></i></h4>
+              </a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#achievements">
+                <h4 class="tb"><i class="fa fa-trophy"></i></h4>
+              </a>
+          </li>
+        </ul>
+
+
+
+
+
+        <ul id="myTab1" class="nav nav-tabs tab hidden-xs" style="margin-right:0px;">
           <li class="active t">
             <a data-toggle="tab" href="#about">
                 <h4 class="tb">About</h4>
@@ -58,17 +100,32 @@
           <div id="hod" class="tab-pane fade">
             <div class="hod">
               <div class="line"><h4>Dr. K Sunilkumar</h4></div>
-                <img src="images/sunilkumar.jpg" class="pull-right" style="float:right; margin-right:5px; margin-left:5px; height:20%; width:20%;">
+                <img src="images/photo.jpg" class="pull-right hidden-xs" style="margin:27px 24px 5px;">
+                <img src="images/photo.jpg" class="hidden-sm hidden-md hidden-lg" style="padding-top: 10px;">
             </div>
             <br/>
 
-            <p>Head of Department of Mechanical Engineering<br>
+            <p class="hidden-xs">Head of Department of Mechanical Engineering<br>
               Associate Professor<br>
               PhD in Engineering from CUSAT<br>
               M.Tech. In Mechanical Engg. from REC /NIT Calicut<br>
               B.Tech In Mechanical Engg from Calicut University<br>
             <i class="fa fa-phone"><span>&nbsp;&nbsp;+91 9446414018</span></i><br/>
             <i class="fa fa-envelope"><span>&nbsp;&nbsp;sunilkumar@mec.ac.in</span></i><br></p>
+
+             <span class="hidden-sm hidden-md hidden-lg">
+              Head of Department of Mechanical Engineering<br>
+              Associate Professor<br>
+              PhD in Engineering from CUSAT<br>
+              M.Tech. In Mechanical Engg. from REC /NIT Calicut<br>
+              B.Tech In Mechanical Engg from Calicut University
+              
+            <br><br>
+            <i class="fa fa-phone"><span>&nbsp;&nbsp;+91 9446414018</span></i><br>
+            <i class="fa fa-envelope"><span>&nbsp;&nbsp;sunilkumar@mec.ac.in</span></i><br></span>
+
+
+
 
             <div class="hod line"><h4>Experience</h4></div>
             <br/>
@@ -103,58 +160,124 @@
           </div>
 
           <div id="faculty" class="tab-pane fade" >             
-           <div> <img src="images/sunilkumar.jpg" class="imag" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:15%; width:15%;"> <h4 class="line1">K. Sunilkumar</h4>
-            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </br>Teaching Experience 24 Years.</p></div>
+           <div class="hidden-sm hidden-md hidden-lg"> 
+            <img src="images/sunilkumar.jpg" class=" img img-responsive" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:15%; width:15%;"> <h4>K. Sunilkumar</h4>
+            <p>Head Of Department, Associate Professor </br>Teaching Experience 24 Years.</p>
+          </div>
+           <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">K. Sunilkumar</h4>
+            <p>&nbsp;&nbsp;&nbsp;Head Of Department, Associate Professor </br>Teaching Experience 24 Years.</p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/rajesh.jpg" class="imag" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:15%; width:15%;"> <h4 class="line1">Dr. Rajesh V. G.</h4>
-              <p>&nbsp;&nbsp;&nbsp;Associate Professor in Mechanical Engineering (On Leave)   </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/rajesh.jpg" class=" img img-responsive" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:15%; width:15%;"> <h4>Dr. Rajesh V. G.</h4>
+              <p>Associate Professor in Mechanical Engineering (On Leave)   </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Dr. Rajesh V. G.</h4>
+            <p>&nbsp;&nbsp;&nbsp;Associate Professor in Mechanical Engineering (On Leave)  </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/shouri.jpg" class="imag" class="pull-leftt" style="float:left; margin-right:5px; margin-left:5px; height:15%; width:15%;"><h4 class="line1">Dr. Shouri P.V</h4>
-              <p> &nbsp;&nbsp;&nbsp;Associate Professor</br> Teaching Experience 17 Years.</p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/shouri.jpg" class=" img img-responsive" class="pull-leftt" style="float:left; margin-right:5px; margin-left:5px; height:15%; width:15%;"><h4>Dr. Shouri P.V</h4>
+              <p>Associate Professor</br> Teaching Experience 17 Years.</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Dr. Shouri P.V</h4>
+            <p>&nbsp;&nbsp;&nbsp;Associate Professor</br> Teaching Experience 17 Years. </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/shine.jpg" class="imag" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4 class="line1">Shine U.P.</h4>
-              <p> &nbsp;&nbsp;&nbsp;    Asst. Professor (SG)</br>Industrial Experience 8 Years.</br>Teaching Experience 15 Years. </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/shine.jpg" class=" img img-responsive" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4>Shine U.P.</h4>
+              <p>Asst. Professor (SG)</br>Industrial Experience 8 Years.</br>Teaching Experience 15 Years. </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Shine U.P.</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst. Professor (SG)</br>Industrial Experience 8 Years.</br>Teaching Experience 15 Years. </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/pradeepkumar.jpg" class="imag" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4 class="line1">Pradeepkumar T.P.</h4>
-              <p> &nbsp;&nbsp;&nbsp;Asst. Professor (Sr Scale)</br>Industrial Experience 6 Years</br>Teaching Experience 15 Years.</p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/pradeepkumar.jpg" class=" img img-responsive" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4>Pradeepkumar T.P.</h4>
+              <p>Asst. Professor (Sr Scale)</br>Industrial Experience 6 Years</br>Teaching Experience 15 Years.</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Pradeepkumar T.P</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst. Professor (Sr Scale)</br>Industrial Experience 6 Years</br>Teaching Experience 15 Years. </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/kannadas.jpg" class="imag" class="pull-left" style="float:leftt; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4 class="line1">Kannadas P.K.</h4>
-              <p> &nbsp;&nbsp;&nbsp;Asst. Professor (Sr Scale)</br>Teaching Experience 8 Years.</p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/kannadas.jpg" class=" img img-responsive" class="pull-left" style="float:leftt; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4>Kannadas P.K.</h4>
+              <p> Asst. Professor (Sr Scale)</br>Teaching Experience 8 Years.</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Kannadas P.K.</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst. Professor (Sr Scale)</br>Teaching Experience 8 Years. </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/jimmy.jpg" class="imag" class="pull-left" style="float:leftt; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4 class="line1">Jimmy John</h4>
-              <p>&nbsp;&nbsp;&nbsp; Asst. Professor (Sr Scale)</br>Teaching Experience 8 Years. </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/jimmy.jpg" class=" img img-responsive" class="pull-left" style="float:leftt; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4>Jimmy John</h4>
+              <p> Asst. Professor (Sr Scale)</br>Teaching Experience 8 Years. </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Jimmy John</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst. Professor (Sr Scale)</br>Teaching Experience 8 Years. </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/askkar.jpg" class="imag" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4 class="line1">Askar Ali</h4>
-              <p> &nbsp;&nbsp;&nbsp;Asst. Professor</br> Teaching Experience 8 Years. </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/askkar.jpg" class=" img img-responsive" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4>Askar Ali</h4>
+              <p>Asst. Professor</br> Teaching Experience 8 Years. </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Askar Ali</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst. Professor</br> Teaching Experience 8 Years. </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/varghese.jpg" class="imag" class="pull-leftt" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4 class="line1">Varghese M.P.</h4>
-              <p>&nbsp;&nbsp;&nbsp; Asst. Professor </br>Teaching Experience 17 Years. </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/varghese.jpg" class=" img img-responsive" class="pull-leftt" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4>Varghese M.P.</h4>
+              <p>Asst. Professor </br>Teaching Experience 17 Years. </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Varghese M.P.</h4>
+            <p>&nbsp;&nbsp;&nbsp;Asst. Professor </br>Teaching Experience 17 Years. </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/noushad.jpg" class="imag" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4 class="line1">Naushad P.S.</h4>
-              <p> &nbsp;&nbsp;&nbsp;Workshop Instructor(Mechanical)</br>Teaching Experience 16 Years. </p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/noushad.jpg" class=" img img-responsive" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4>Naushad P.S.</h4>
+              <p>Workshop Instructor(Mechanical)</br>Teaching Experience 16 Years. </p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Naushad P.S.</h4>
+            <p>&nbsp;&nbsp;&nbsp;Workshop Instructor(Mechanical)</br>Teaching Experience 16 Years. </p>
+          </div>
             <br><br>
-            <div>
-              <img src="images/dwitheesh.jpg" class="imag" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4 class="line1">Dwitheesh Kumar P.B</h4>
-              <p> &nbsp;&nbsp;&nbsp;Foreman</br> Teaching Experience 16 Years</p>
+
+
+            <div class="hidden-sm hidden-md hidden-lg">
+              <img src="images/dwitheesh.jpg" class=" img img-responsive" class="pull-left" style="float:left; margin-right:5px; margin-left:5px; height:20%; width:20%;"><h4>Dwitheesh Kumar P.B</h4>
+              <p>Foreman</br> Teaching Experience 16 Years</p>
             </div>
+             <div class="hidden-xs">            
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Dwitheesh Kumar P.B</h4>
+            <p>&nbsp;&nbsp;&nbsp;Foreman</br> Teaching Experience 16 Years </p>
+          </div>
             <br><br>
             
           </div>
@@ -189,7 +312,6 @@
   </div>
 </div>
 
-</div>
 </div>
 </div>
 </div>
