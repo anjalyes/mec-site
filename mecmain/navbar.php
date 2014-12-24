@@ -1,5 +1,9 @@
+
+
+	
+
 <div id="navigation">
-	<nav class="navbar navbar-inverse" role="navigation" id="navbarcont" style="box-shadow:0px 5px 5px rgba(0, 0, 0, 0.3);">
+	<nav class="navbar navbar-inverse" role="navigation" id="navbarcont">
 	
 	        <div class="navbar-header">
 				<button type="button"  class="navbar-toggle htchng" data-toggle="collapse" data-target="#navbar-main">
@@ -14,7 +18,7 @@
 	        <div class="collapse navbar-collapse " id="navbar-main">
 	            <ul class="nav navbar-nav " id="nav-parent" >
 					<li class="navlinks " ><a  data-toggle="collapse" data-parent="#nav-parent"  id="nav1"><i class="fa fa-university" style="font-size:110%;position:relative;right:3px"></i>History</a>
-	                    <div id="nav-cont0" class="collapse panel-collapse">
+	                    <div id="nav-cont0" class="collapse panel-collapse ">
 	                        <!-- history-tab/mobile-contents -->
 	                        <div class="container" >
 	                        	<p class="panel-style2">	Model Engineering College was established in 1989 by the Institute of Human Resource 
@@ -22,7 +26,7 @@
 			                		It was established as a self-financing college with a fair degree of autonomy. 
 			                		The college started functioning in August 1989 in the premises of High School, 
 			                	 	Edapally with three degree courses offered in Biomedical , 
-			                	 	Computer and Electronics Engineering.&nbsp;&nbsp;<a href="history.php">more....</a>
+			                	 	Computer and Electronics Engineering.<a href="history.php">more....</a>
 			                	</p>
 			                </div>
 	                        <div class="panel-body">
@@ -40,26 +44,28 @@
 					  		<div class="panel-body">
  								<div  class="panel-style1">
                 	 				<div   class="panel-vertical">
-					                    <div><a href="#">EXCEL</a></div>
-					                    <div><a href="#">IEEE</a></div>
-					                    <div><a href="#">MACS</a></div>
-					                    <div><a href="#">EMF</a></div>
-					                    <div><a href="#">Mixed Signals</a></div>
-					                    <div><a href="#">BMA</a></div>
-					                    <div><a href="#">E-Cell</a></div>
-					                    <div><a href="#">Young Indians</a></div>
+					                    <div><a href="clubs.php#excel">EXCEL</a></div>
+					                    <div><a href="clubs.php#ieee">IEEE</a></div>
+					                    <div><a href="clubs.php#macs">MACS</a></div>
+					                    <div><a href="clubs.php#emf">EMF</a></div>
+					                    <div><a href="clubs.php#mixedsignals">Mixed Signals</a></div>
+					                    <div><a href="clubs.php#bma">BMA</a></div>
+					                    <div><a href="clubs.php#ecell">E-Cell</a></div>
+					                    <div><a href="clubs.php#yi">Young Indians</a></div>
+					                    <div><a href="clubs.php">Thirdeye</a></div>
                     				</div>
                  				</div>
                  				<div  class="panel-style1">
                   					<div class="panel-vertical text-right ">
-					                 	<div><a href="#">Illuminati</a></div>
-					                    <div><a href="#">NSS</a></div>
-					                    <div><a href="#">Thanal</a></div>
-					                    <div><a href="#">Tree</a></div>
-					                    <div><a href="#">Arts</a></div>
-					                    <div><a href="#">Sports</a></div>
-					                    <div><a href="#">El-Juego</a></div>
-					                    <div><a href="#">Octane</a></div>
+                  						
+					                 	<div><a href="clubs.php#illuminati">Illuminati</a></div>
+					                    <div><a href="clubs.php#nss">NSS</a></div>
+					                    <div><a href="clubs.php#thanal">Thanal</a></div>
+					                    <div><a href="clubs.php#tree">Tree</a></div>
+					                    <div><a href="clubs.php#arts">Arts</a></div>
+					                    <div><a href="clubs.php#sports">Sports</a></div>
+					                    <div><a href="clubs.php#eljuego">El-Juego</a></div>
+					                    <div><a href="clubs.php#octane">Octane</a></div>
 					                </div>
                  				</div>
 		           			</div>
@@ -113,12 +119,12 @@
                 					<div class="panel-vertical">
 					                    <div><a href="whymec.php">Why MEC</a></div>
 					                    <div><a href="#">Placement Stats</a></div>
-					                    <div><a href="#">Activities</a></div>
-					                    <div><a href="reg.php">Register</a></div>
+					                    <div><a href="pc-act.php">Activities</a></div>
+					                    <div><a href="#">We Provide</a></div>
 					                    <div><a href="brochure.php">Brochure</a></div>
-					                   	<div><a href="#">Our Recruiters</a></div>
+					                   	<div><a href="recruit.php">Our Recruiters</a></div>
 					                   	<div><a href="student-verification.php">Student Record Verfication</a></div>
-					                   	<div><a href="place">Contact Details</a></div>
+					                   	<div><a href="place.php">Contact Details</a></div>
                     
                     				</div>
                  				</div>
@@ -156,7 +162,7 @@
 	                	 It was established as a self-financing college with a fair degree of autonomy. 
 	                	 The college started functioning in August 1989 in the premises of High School, 
 	                	 Edapally with three degree courses offered in Biomedical , 
-	                	 Computer and Electronics Engineering.&nbsp;&nbsp;<a href="history.php">more....</a></p>
+	                	 Computer and Electronics Engineering.  <a href="history.php">more....</a></p>
 
  					</div>
 				</div>
@@ -169,27 +175,28 @@
 	            
              	<div  class="popdiv-contstyle twntfve">
              		<div  class="panel-vertical">
-		                <div><a href="#">EXCEL</a></div>
-		                <div><a href="#">IEEE</a></div>
-		                <div><a href="#">MACS</a></div>
-		                <div><a href="#">EMF</a></div>
-		                <div><a href="#">Mixed Signals</a></div>
-		                <div><a href="#">BMA</a></div>
-		                <div><a href="#">E-Cell</a></div>
-		                <div><a href="#">Young Indians</a></div>
+		                <div><a href="clubs.php#excel">EXCEL</a></div>
+	                    <div><a href="clubs.php#ieee">IEEE</a></div>
+	                    <div><a href="clubs.php#macs">MACS</a></div>
+	                    <div><a href="clubs.php#emf">EMF</a></div>
+	                    <div><a href="clubs.php#mixedsignals">Mixed Signals</a></div>
+	                    <div><a href="clubs.php#bma">BMA</a></div>
+	                    <div><a href="clubs.php#ecell">E-Cell</a></div>
+	                    <div><a href="clubs.php#yi">Young Indians</a></div>
+	                    <div><a href="clubs.php">Thirdeye</a></div>
                 	</div>
              	</div>
 	            <div  class="popdiv-contstyle twntfve">
 	              	<div  class="panel-vertical">
 
-	             	 	<div><a href="#">Illuminati</a></div>
-		                <div><a href="#">NSS</a></div>
-		                <div><a href="#">Thanal</a></div>
-		                <div><a href="#">Tree</a></div>
-		                <div><a href="#">Arts</a></div>
-		                <div><a href="#">Sports</a></div>
-		                <div><a href="#">El-Juego</a></div>
-		                <div><a href="#">Octane</a></div>
+	             	 	<div><a href="clubs.php#illuminati">Illuminati</a></div>
+	                    <div><a href="clubs.php#nss">NSS</a></div>
+	                    <div><a href="clubs.php#thanal">Thanal</a></div>
+	                    <div><a href="clubs.php#tree">Tree</a></div>
+	                    <div><a href="clubs.php#arts">Arts</a></div>
+	                    <div><a href="clubs.php#sports">Sports</a></div>
+	                    <div><a href="clubs.php#eljuego">El-Juego</a></div>
+	                    <div><a href="clubs.php#octane">Octane</a></div>
 	                </div>
 	             </div>
              	<div  class="popdiv-contstyle fifty"  >
@@ -379,8 +386,8 @@
             	<div class="popdiv-contstyle fifty">
              		<div  class="panel-vertical">
 		                <div><a href="pta.php">PTA</a></div>
-					    <div><a href="principal.php">Principal</a></div>
-					    <div><a href="senate.php">Senate</a></div>
+	                    <div><a href="principal.php">Principal</a></div>
+	                    <div><a href="senate.php">Senate</a></div>
                 
                 	</div>
              	</div>
@@ -432,11 +439,11 @@
             	<div class="popdiv-contstyle fifty">
              		<div  class="panel-vertical">
 		                <div><a href="comp.php">Computer Engineering</a></div>
-		                <div><a href="bio.php">Biomedical Engineering</a></div>
-		                <div><a href="ec.php">Electronics Engineering</a></div>
-		                <div><a href="eee.php">Electrical Engineering</a></div>
-		                <div><a href="me.php">Mechanical Engineering</a></div>
-		               	<div><a href="ap.php">Applied Science</a></div>
+	                    <div><a href="bio.php">Biomedical Engineering</a></div>
+	                    <div><a href="ec.php">Electronics Engineering</a></div>
+	                    <div><a href="eee.php">Electrical Engineering</a></div>
+	                    <div><a href="me.php">Mechanical Engineering</a></div>
+	                   	<div><a href="ap.php">Applied Science</a></div>
                 
                 	</div>
              	</div>
@@ -520,14 +527,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             	<div class="popdiv-contstyle fifty">
             		<div  class="panel-vertical">
 		                <div><a href="whymec.php">Why MEC</a></div>
-		                <div><a href="#">Placement Stats</a></div>
-		                <div><a href="#">Activities</a></div>
-		                <div><a href="reg.php">Register</a></div>
-		                <div><a href="brochure.php">Brochure</a></div>
-		               	<div><a href="#">Our Recruiters</a></div>
-		               	<div><a href="student-verification.php">Student Records</a></div>
-		               	<div><a href="place.php">Contact Details</a></div>
-		                
+	                    <div><a href="#">Placement Stats</a></div>
+	                    <div><a href="pc-act.php">Activities</a></div>
+	                    
+	                    <div><a href="brochure.php">Brochure</a></div>
+	                   	<div><a href="recruit.php">Our Recruiters</a></div>
+	                   	<div><a href="student-verification.php">Student Record Verfication</a></div>
+	                   	<div><a href="place.php">Contact Details</a></div>
+        
                 	</div>
              	</div>
             
@@ -567,16 +574,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 		                </p>
 		                </div>
 
-		                <div id="We-Provide" class="hide">
-                		<h3 class="heading2">We Provide</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
+		                
 
 		                <div id="Brochure" class="hide">
                 		<h3 class="heading2">Brochure</h3>
