@@ -9,10 +9,10 @@
 
 					<div class="buttn-box clearfix center-block">
 				 	<div class="buttn1" >
-				 		<a href="#" class="text-center">Brochure</a>
+				 		<a href="pdf/brochure2015.pdf" class="text-center">Brochure</a>
 				 	</div>
 				 	<div class="buttn2" >
-				 		<a href="#" class="text-center">Syllabus &amp; Projects</a>
+				 		<a href="pdf/Syllabus&projects2015.pdf" class="text-center">Syllabus &amp; Projects</a>
 				 	</div>
 				 	</div>
 				</div>
@@ -25,10 +25,10 @@
 					<div class="buttn-box clearfix center-block">
 					
 					 	<div class="buttn1" >
-					 		<a  href="#" class="text-center">Brochure</a>
+					 		<a  href="pdf/brochure2014.pdf" class="text-center">Brochure</a>
 					 	</div>
 					 	<div class="buttn2" >
-					 		<a  href="#"  class="text-center">Syllabus &amp; Projects</a>
+					 		<a  href="pdf/Syllabus&projects2014.pdf"  class="text-center">Syllabus &amp; Projects</a>
 					 	</div>
 					 	
 					 </div>
@@ -50,10 +50,10 @@
 
 					<div class="buttn-box clearfix center-block">
 				 	<div class="buttn1" >
-				 		<a  href="#" class="text-center">Brochure</a>
+				 		<a  href="pdf/brochure2013.pdf" class="text-center">Brochure</a>
 				 	</div>
 				 	<div class="buttn2" >
-				 		<a  href="#" class="text-center">Syllabus &amp; Projects</a>
+				 		<a  href="pdf/Syllabus&projects2013.pdf" class="text-center">Syllabus &amp; Projects</a>
 				 	</div>
 				 	</div>
 				</div>
@@ -65,7 +65,7 @@
 
 					<div class="buttn-box clearfix center-block">
 				 	<div class="buttn1" >
-				 		<a href="#" class="text-center">Brochure</a>
+				 		<a href="pdf/brochure2013.pdf" class="text-center">Brochure</a>
 				 	</div>
 				 	<div class="buttn2" >
 				 		<a  href="#" class="text-center">Syllabus &amp; Projects</a>
