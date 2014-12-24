@@ -1,7 +1,3 @@
-
-
-	
-
 <div id="navigation">
 	<nav class="navbar navbar-inverse" role="navigation" id="navbarcont">
 	
@@ -37,37 +33,20 @@
 					</li>
 						          
 				            
-					<li  class="navlinks  "><a  data-toggle="collapse" data-parent="#nav-parent" id="nav2" ><i class="fa fa-users" style="font-size:110%;position:relative;right:3px;"></i>Activities</a>
+					<li  class="navlinks  "><a  data-toggle="collapse" data-parent="#nav-parent" id="nav2" ><i class="fa fa-users" style="font-size:110%;position:relative;right:3px;"></i>Student's Corner</a>
 					
 					  	<div id="nav-cont1" class="panel-collapse collapse ">
 					  		<!-- activities-tab/mobile-contents -->
 					  		<div class="panel-body">
  								<div  class="panel-style1">
                 	 				<div   class="panel-vertical">
-					                    <div><a href="clubs.php#excel">EXCEL</a></div>
-					                    <div><a href="clubs.php#ieee">IEEE</a></div>
-					                    <div><a href="clubs.php#macs">MACS</a></div>
-					                    <div><a href="clubs.php#emf">EMF</a></div>
-					                    <div><a href="clubs.php#mixedsignals">Mixed Signals</a></div>
-					                    <div><a href="clubs.php#bma">BMA</a></div>
-					                    <div><a href="clubs.php#ecell">E-Cell</a></div>
-					                    <div><a href="clubs.php#yi">Young Indians</a></div>
-					                    <div><a href="clubs.php">Thirdeye</a></div>
-                    				</div>
+					                    <div><a href="clubs.php">Student Clubs</a></div>
+					                    <div><a href="clubs.php">Arts</a></div>
+					                    <div><a href="clubs.php">Sports</a></div>
+					                    <div><a href="clubs.php">Excel</a></div>
+					   				</div>
                  				</div>
-                 				<div  class="panel-style1">
-                  					<div class="panel-vertical text-right ">
-                  						
-					                 	<div><a href="clubs.php#illuminati">Illuminati</a></div>
-					                    <div><a href="clubs.php#nss">NSS</a></div>
-					                    <div><a href="clubs.php#thanal">Thanal</a></div>
-					                    <div><a href="clubs.php#tree">Tree</a></div>
-					                    <div><a href="clubs.php#arts">Arts</a></div>
-					                    <div><a href="clubs.php#sports">Sports</a></div>
-					                    <div><a href="clubs.php#eljuego">El-Juego</a></div>
-					                    <div><a href="clubs.php#octane">Octane</a></div>
-					                </div>
-                 				</div>
+                 				
 		           			</div>
 		           		</div>
 					</li>
@@ -171,40 +150,23 @@
             <div id="links2">
            
 	            
-	           	<h2 class="heading">Activities</h2>
+	           	<h2 class="heading">Student's Corner</h2>
 	            
              	<div  class="popdiv-contstyle twntfve">
              		<div  class="panel-vertical">
-		                <div><a href="clubs.php#excel">EXCEL</a></div>
-	                    <div><a href="clubs.php#ieee">IEEE</a></div>
-	                    <div><a href="clubs.php#macs">MACS</a></div>
-	                    <div><a href="clubs.php#emf">EMF</a></div>
-	                    <div><a href="clubs.php#mixedsignals">Mixed Signals</a></div>
-	                    <div><a href="clubs.php#bma">BMA</a></div>
-	                    <div><a href="clubs.php#ecell">E-Cell</a></div>
-	                    <div><a href="clubs.php#yi">Young Indians</a></div>
-	                    <div><a href="clubs.php">Thirdeye</a></div>
-                	</div>
+		                <div><a href="clubs.php">Student Clubs</a></div>
+	                    <div><a href="clubs.php">Arts</a></div>
+	                    <div><a href="clubs.php">Sports</a></div>
+	                    <div><a href="clubs.php">Excel</a></div>
+	               	</div>
              	</div>
-	            <div  class="popdiv-contstyle twntfve">
-	              	<div  class="panel-vertical">
-
-	             	 	<div><a href="clubs.php#illuminati">Illuminati</a></div>
-	                    <div><a href="clubs.php#nss">NSS</a></div>
-	                    <div><a href="clubs.php#thanal">Thanal</a></div>
-	                    <div><a href="clubs.php#tree">Tree</a></div>
-	                    <div><a href="clubs.php#arts">Arts</a></div>
-	                    <div><a href="clubs.php#sports">Sports</a></div>
-	                    <div><a href="clubs.php#eljuego">El-Juego</a></div>
-	                    <div><a href="clubs.php#octane">Octane</a></div>
-	                </div>
-	             </div>
+	            
              	<div  class="popdiv-contstyle fifty"  >
 
                 	<div  class="panel-vertical" >
                 	<div class="rightside">
                 		<div id="EXCEL">
-                		<h3 class="heading2">EXCEL</h3>
+                		<h3 class="heading2">Student Clubs</h3>
 		                <p>
 
 		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -215,7 +177,7 @@
 		                </div>
 
 		                <div id="IEEE" class="hide">
-                		<h3 class="heading2">IEEE</h3>
+                		<h3 class="heading2">Arts</h3>
 		                <p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -225,125 +187,6 @@
 		                </div>
 
 		                <div id="MACS" class="hide">
-                		<h3 class="heading2">MACS</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="EMF" class="hide">
-                		<h3 class="heading2">EMF</h3>
-		                <p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Mixed-Signals" class="hide">
-                		<h3 class="heading2">Mixed Signals</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="BMA" class="hide">
-                		<h3 class="heading2">BMA</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="E-Cell" class="hide">
-                		<h3 class="heading2">E-Cell</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Young-Indians"class="hide">
-                		<h3 class="heading2">Young Indians</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Illuminati" class="hide">
-                		<h3 class="heading2">Illuminati</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="NSS" class="hide">
-                		<h3 class="heading2">NSS</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Thanal" class="hide">
-                		<h3 class="heading2">Thanal</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Tree" class="hide">
-                		<h3 class="heading2">Tree</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Arts" class="hide">
-                		<h3 class="heading2">Arts</h3>
-		                <p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Sports" class="hide">
                 		<h3 class="heading2">Sports</h3>
 		                <p>
 
@@ -354,27 +197,18 @@
 		                </p>
 		                </div>
 
-		                <div id="El-Juego" class="hide">
-                		<h3 class="heading2">El-Juego</h3>
+		                <div id="EMF" class="hide">
+                		<h3 class="heading2">Excel</h3>
 		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
 		                </p>
 		                </div>
 
-		                <div id="Octane" class="hide">
-                		<h3 class="heading2">Octane</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
+		                
+		               
 
 		                </div>
                		</div>
