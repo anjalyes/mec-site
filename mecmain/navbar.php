@@ -97,7 +97,7 @@
 					            <div  class="panel-style2">
                 					<div class="panel-vertical">
 					                    <div><a href="whymec.php">Why MEC</a></div>
-					                    <div><a href="#">Placement Stats</a></div>
+					                    <div><a href="placement-stats.php">Placement Stats</a></div>
 					                    <div><a href="pc-act.php">Activities</a></div>
 					                    <div><a href="#">We Provide</a></div>
 					                    <div><a href="brochure.php">Brochure</a></div>
@@ -361,7 +361,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             	<div class="popdiv-contstyle fifty">
             		<div  class="panel-vertical">
 		                <div><a href="whymec.php">Why MEC</a></div>
-	                    <div><a href="#">Placement Stats</a></div>
+	                    <div><a href="placement-stats.php">Placement Stats</a></div>
 	                    <div><a href="pc-act.php">Activities</a></div>
 	                    
 	                    <div><a href="brochure.php">Brochure</a></div>
@@ -461,54 +461,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 	                           
             <div id="links6">
             	<h2 class="heading">Admission</h2>
-            	<div class="popdiv-contstyle fifty">
-            		<div  class="panel-vertical">
-		                <div><a href="#">Dummy1</a></div>
-		                <div><a href="#">Dummy2</a></div>
-		                <div><a href="#">Dummy3</a></div>
+            	
+            	<div  class="popdiv-contstyle hundrd">
+	                <div class="panel-vertical" >	
+	                	                         
+	                	<p>
+	                	 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+		                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a href="admission.php">more....</a></p>
+
+ 					</div>
+				</div>
+
 		                
-		                
-                	</div>
-             	</div>
-            
-             	<div class="popdiv-contstyle fifty" >
-                	<div  class="panel-vertical">
-                		<div class="rightside">
-		                <div id="Dummy1">
-                		<h3 class="heading2">Dummy1</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Dummy2" class="hide">
-                		<h3 class="heading2">Dummy2</h3>
-		                <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-
-		                <div id="Dummy3" class="hide">
-                		<h3 class="heading2">Dummy3</h3>
-		                <p>
-
-		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
-		                </p>
-		                </div>
-		              </div>
-               		</div>
-             	</div>
             </div>
+
+		</div>	<!--popdiv-->
 
 		</div>	<!--popdiv-->
 	              

@@ -9,14 +9,14 @@ Primary style
 Modules - reusable parts of our design
 
 -------------------------------- */
-#clubs .heading-main
+.heading-main
 {
  
   margin-left: 3%;
 }
 
 @media (max-width:470px){
-#clubs .heading-main
+.heading-main
 {
   font-size: 2.2em;
   margin-left: 3%;
@@ -25,7 +25,7 @@ Modules - reusable parts of our design
 }
 @media (min-width: 470px) and (max-width: 767px){
 
-#clubs .heading-main
+.heading-main
 {
   font-size: 2.6em;
    margin-left: 3%;
@@ -34,13 +34,13 @@ Modules - reusable parts of our design
   }
 
 
-#clubs .cd-container {
+.cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
 }
-#clubs .cd-container::after {
+.cd-container::after {
   /* clearfix */
   content: '';
   display: table;
@@ -72,7 +72,7 @@ Modules - reusable parts of our design
 
 
 
-#clubs .cd-timeline-content .blue-head
+.cd-timeline-content .blue-head
   {
     padding:3.1%;
     background-color: #0371A4;
@@ -80,7 +80,7 @@ Modules - reusable parts of our design
     margin: 0px;
   }
 
-#clubs .cd-timeline-content p
+.cd-timeline-content p
   {
     padding: 3% 3% 1% 3%;
   }
@@ -127,32 +127,32 @@ bottom: 50px;
 
 
 
-#clubs .cd-timeline-block {
+.cd-timeline-block {
   height:auto;
   position: relative;
   margin: 2em 0;
 }
-#clubs .cd-timeline-block:after {
+.cd-timeline-block:after {
   content: "";
   display: table;
   clear: both;
 }
-#clubs .cd-timeline-block:first-child {
+.cd-timeline-block:first-child {
   margin-top: 0;
 }
-#clubs .cd-timeline-block:last-child {
+.cd-timeline-block:last-child {
   margin-bottom: 0;
 }
 
 
 @media only screen and (min-width: 1171px) {
-  #clubs .cd-timeline-block {
+  .cd-timeline-block {
     margin: 4em 0;
   }
-  #clubs .cd-timeline-block:first-child {
+  .cd-timeline-block:first-child {
     margin-top: 0;
   }
-  #clubs .cd-timeline-block:last-child {
+  .cd-timeline-block:last-child {
     margin-bottom: 0;
   }
 }
@@ -167,7 +167,7 @@ left:18px;
 }
 
 
-#clubs .cd-timeline-img {
+.cd-timeline-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -181,7 +181,7 @@ left:18px;
 
 
 /*image view at full width*/
-#clubs .cd-timeline-img img {
+.cd-timeline-img img {
   display: block;
   width: 60px;
   height: 60px;
@@ -194,7 +194,7 @@ left:18px;
   margin-top: 0px;
 }
 
-#clubs .cd-timeline-img #iete
+.cd-timeline-img #iete
 {
 
   width: 60px;
@@ -202,7 +202,7 @@ left:18px;
   border-radius: 50%;
 }
 
-#clubs .cd-timeline-img #ieee
+.cd-timeline-img #ieee
 {
   position: relative;
   top:22px;
@@ -210,7 +210,7 @@ left:18px;
   height:20px;
 }
 
-#clubs .cd-timeline-img #ecell
+.cd-timeline-img #ecell
 {
   position: relative;
   top:15px;
@@ -218,7 +218,7 @@ left:18px;
   height:32px;
 }
 
-#clubs .cd-timeline-img #tree
+.cd-timeline-img #tree
 {
   position: relative;
   top:-5px;
@@ -226,13 +226,13 @@ left:18px;
   height:60px;
 }
 
-#clubs .cd-timeline-img #nss
+.cd-timeline-img #nss
 {
   width: 60px;
   height:60px;
 }
 
-#clubs .cd-timeline-img #bma
+.cd-timeline-img #bma
 {
   position: relative;
   top: 10px;
@@ -240,7 +240,7 @@ left:18px;
   height:38px;
 }
 
-#clubs .cd-timeline-img #thirdeye
+.cd-timeline-img #thirdeye
 {
   position: relative;
   top:3px;
@@ -255,7 +255,7 @@ left:18px;
 
 @media (min-width: 700px) and (max-width: 1170px){
 /*image view small*/
-#clubs .cd-timeline-img {
+.cd-timeline-img {
   position: absolute;
   top: 0;
   left: 0;
@@ -269,7 +269,7 @@ left:18px;
 
 
 /*image view at full width*/
-#clubs .cd-timeline-img img {
+.cd-timeline-img img {
   display: block;
   width: 80px;
   height: 80px;
@@ -282,7 +282,7 @@ left:18px;
   margin-top: 0px;
 }
 
-#clubs .cd-timeline-img #iete
+.cd-timeline-img #iete
 {
   position:relative;
   left:5px;
