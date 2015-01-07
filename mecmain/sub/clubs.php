@@ -135,31 +135,12 @@
 				<a href="#0" class="cd-read-more">Read more</a>
 				
 			</div> <!-- cd-timeline-content -->
-			<a id="arts"></a>
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				
-				<img  id="artspic" src="" >
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content right">
-				
-				<h4 class="blue-head">Arts</h4>
-				<p>It provides a platform for students to develop their creative skills. This club facilitates the students to participate in various arts festivals in the state and country. The club is responsible for organizing the annual arts festival in the college. The intra-college annual arts festival is usually a 3-day event which goes from morning till late in the evening, and comprises of a great assortment of programs. </p>
-				<div class="dntshow">
-				<p>
-				The students are divided into a number of houses, competing against each other to take home the cup. It provides a good platform for students to showcase their talent, and at the same time, develop a healthy, competitive spirit. Arts consists of both on-stage (held on those 3 days) as well as off-stage events (which take place before-hand).</p>
-				<br/>
-				<p>The winners are encouraged to participate in the University Arts fest. The outstanding performers are selected and gathered together to represent the college at the university level. The students who bag the prizes are awarded grace marks.</p>
-				<br/>
-				</div>
-				<a href="#0" class="cd-read-more">Read more</a>
-				
-			</div> <!-- cd-timeline-content -->
 			<a id="eljuego"></a>
 		</div> <!-- cd-timeline-block -->
+
+		
+			
+		
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
@@ -177,6 +158,8 @@
 			<a id="emf"></a>
 		</div> <!-- cd-timeline-block -->
 
+
+
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
 				
@@ -193,33 +176,12 @@
 				<a href="#0" class="cd-read-more">Read more</a>
 				
 			</div> <!-- cd-timeline-content -->
-		<a id="excel"></a>	
+		<a id="illuminati"></a>
 		</div> <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-
-			<div class="cd-timeline-img cd-picture">
-				
-				<img  id="excelpic" src="" >
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content left">
-				
-				<h4 class="blue-head">EXCEL</h4>
-				<p>Excel is the annual techno-managerial fest of MEC in association with IEEE. Driven by the motto INSPIRE.INNOVATE.ENGINEER, it aims at providing a platform for students to test and showcase their technical prowess against the best in the land. Within a decade, Excel has risen to become one of the most eagerly anticipated events each year.</p>
-		        <br/>
-		        <div class="dntshow">
-		        <p>The symposium, conducted over a period of three days includes both online and on site competitions, workshops, talks and seminars, video conferences, exhibitions and pro shows. Since its inception in 2001, 14 editions have been successfully organized. Every year our students have astounded all by exhibiting their technological innovations.</p>
-		        <br/>
-		        <p>The capital required to run the event is raised through sponsorships. Grants from IEEE and funding provided by the college also play a significant part. Exhibition stalls are put up, competitions are held, headed by each of the the branches. The subsequent editions of Excel witnesses inclusion of larger number of events, each of them testing the knowledge and skill of the participants.</p>
-		        <br/>
-		        <a href="http://www.excelmec.org/excel2014/">EXCEL 2k14</a>
-		        </div>
-				<a href="" class="cd-read-more">Read more</a>
-				
-			</div> <!-- cd-timeline-content -->
-			<a id="illuminati"></a>
-		</div> <!-- cd-timeline-block -->
+		
+			
+		
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
@@ -301,27 +263,12 @@
 				<a href="#0" class="cd-read-more">Read more</a>
 				
 			</div> <!-- cd-timeline-content -->
-			<a id="octane"></a>
-		</div> <!-- cd-timeline-block -->
-
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				
-				<img  id="octanepic" src="" >
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content left">
-				
-				<h4 class="blue-head">Octane</h4>
-				<p>Octane, the auto club of MEC came into existence around September, 2012. It was created with the aim of introducing the mechanical aspect of engineering to the students. We conduct seminars and events suited for not only motor enthusiasts but also to people who are interested in pursuing a career in automotive industry, robotics, mechatronics etc. Its objective is to improve the technical skills of students in MEC and other Engineering Colleges of Kerala; promote research and innovation in the field of Automotive informatics by organizing various activities.</p>
-				<br/>
-				<p>The club was inaugurated by Aaron George , CEO of Velozeta inc. This was followed by an interactive session on 6-stroke engines.</p>
-				<br/>
-				<a href="#0" class="cd-read-more">Read more</a>
-				
-			</div> <!-- cd-timeline-content -->
 			<a id="thanal"></a>
 		</div> <!-- cd-timeline-block -->
+
+		
+			
+		
 
 		<div class="cd-timeline-block">
 			<div class="cd-timeline-img cd-picture">
@@ -408,30 +355,10 @@
 				<a href="" class="cd-read-more">Read more</a>
 				
 			</div> <!-- cd-timeline-content -->
-			<a id="sports"></a>
+			
 		</div> <!-- cd-timeline-block -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-picture">
-				
-				<img  id="sportspic">
-			</div> <!-- cd-timeline-img -->
-
-			<div class="cd-timeline-content right">
-				
-				<h4 class="blue-head">SPORTS</h4>
-				<p>Model Engineering College has an excellent physical education department under the guidance of Mr Johnson Phillip.</p>
-				<br/>
-				<p>Facilities of the department are:</p>
-				<br/>
-				<p>Health Club<br>FootBall Ground<br>Cricket nets<br>Table Tennis table<br>Basketball ground<br>Volleyball courts<br>Badminton court</p>
-				<br/>
-				<p class="dntshow">The department is engaged in the training of the college team for various inter-collegiate events.The college cricket team has always remained in top rung of University cricket matches.The college team has been the overall champions in the university sports a number of times. We also have the annual Sports Day in college, which is conducted near to the Arts Fest. It brings out the competitive spirit among the students.</p> 
-				<br/>
-				<a href="#0" class="cd-read-more">Read more</a>
-				
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+		
 
 
 
