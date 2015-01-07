@@ -148,7 +148,7 @@
 				<img  id="eljuegopic" src="" >
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content left">
+			<div class="cd-timeline-content right">
 				
 				<h4 class="blue-head">EL-JUEGO</h4>
 				<p>http://www.mec.ac.in/eljuego/</p>
@@ -166,7 +166,7 @@
 				<img  id="emfpic" src="" >
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content right">
+			<div class="cd-timeline-content left">
 				
 				<h4 class="blue-head">EMF</h4>
 				<p>Electrical Minds Forum (EMF) is the society of the students of the department of Electrical and Electronics Engineering. It aims to act as a bridge between the students and the strides made in the industry.EMF brings together eminent personalities from organizations of high repute such as Kerala State Electricity Board (KSEB) and enables students to engage in interactions with them. </p>
@@ -276,7 +276,7 @@
 				<img  id="thanalpic" >
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content right">
+			<div class="cd-timeline-content left">
 				
 				<h4 class="blue-head">THANAL</h4>
 				<p>
@@ -338,7 +338,7 @@
 				<img  id="yipic"  >
 			</div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content left">
+			<div class="cd-timeline-content right">
 				
 				<h4 class="blue-head">Young Indians</h4>
 				
