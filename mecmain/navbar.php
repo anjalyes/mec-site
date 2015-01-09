@@ -13,7 +13,9 @@
 
 	        <div class="collapse navbar-collapse " id="navbar-main">
 	            <ul class="nav navbar-nav " id="nav-parent" >
-					<li class="navlinks " ><a  data-toggle="collapse" data-parent="#nav-parent"  id="nav1"><i class="fa fa-university" style="font-size:110%;position:relative;right:3px"></i>History</a>
+
+
+					<li class="navlinks " ><a class="custom-link " data-href="history.php"  data-toggle="collapse" data-parent="#nav-parent"  id="nav1"><i class="fa fa-university" style="font-size:110%;position:relative;right:3px"></i> History</a>
 	                    <div id="nav-cont0" class="collapse panel-collapse ">
 	                        <!-- history-tab/mobile-contents -->
 	                        <div class="container" >
@@ -33,12 +35,12 @@
 					</li>
 						          
 				            
-					<li  class="navlinks  "><a  data-toggle="collapse" data-parent="#nav-parent" id="nav2" ><i class="fa fa-users" style="font-size:110%;position:relative;right:3px;"></i>Student's Corner</a>
+					<li  class="navlinks  "><a  class="custom-link " data-href="studentact.php" data-toggle="collapse" data-parent="#nav-parent" id="nav2" ><i class="fa fa-users" style="font-size:110%;position:relative;right:3px;"></i>Student's Corner</a>
 					
 					  	<div id="nav-cont1" class="panel-collapse collapse ">
 					  		<!-- activities-tab/mobile-contents -->
 					  		<div class="panel-body">
- 								<div  class="panel-style1">
+ 								<div  class="panel-style2">
                 	 				<div   class="panel-vertical">
 					                    <div><a href="clubs.php">Student Clubs</a></div>
 					                    <div><a href="clubs.php">Arts</a></div>
@@ -52,7 +54,7 @@
 					</li>
 							
 
-					<li  class="navlinks  "><a  data-toggle="collapse" data-parent="#nav-parent" id="nav3"  ><i class="fa fa-user" style="font-size:110%;position:relative;right:3px;"></i>Administration</a>
+					<li  class="navlinks  "><a class="custom-link" data-href="administration.php"  data-toggle="collapse" data-parent="#nav-parent" id="nav3"  ><i class="fa fa-user" style="font-size:110%;position:relative;right:3px;"></i>Administration</a>
 						<div id="nav-cont2" class="panel-collapse collapse ">
 						 
 						 	<div class="panel-body">
@@ -70,7 +72,7 @@
 					</li>
 								
 
-					<li   class="navlinks  "><a  data-toggle="collapse" data-parent="#nav-parent" id="nav4" ><i class="fa fa-th-large" style="font-size:110%;position:relative;right:3px;"></i>Departments</a>
+					<li   class="navlinks  "><a  class="custom-link" data-href="courses.php" data-toggle="collapse" data-parent="#nav-parent" id="nav4" ><i class="fa fa-th-large" style="font-size:110%;position:relative;right:3px;"></i>Departments</a>
                         <div id="nav-cont3" class="panel-collapse collapse ">
                         	<!-- department-tab/mobile-contents -->
                            	<div class="panel-body" >
@@ -90,7 +92,7 @@
 					</li>
 									
 
-					<li   class="navlinks  "><a   data-toggle="collapse" data-parent="#nav-parent" id="nav5" ><i class="fa fa-file-text" style="font-size:110%;position:relative;right:3px;"></i>Placement</a>
+					<li   class="navlinks  "><a class="custom-link " data-href="whymec.php" data-toggle="collapse" data-parent="#nav-parent" id="nav5" ><i class="fa fa-file-text" style="font-size:110%;position:relative;right:3px;"></i>Placement</a>
                         <div id="nav-cont4" class="panel-collapse collapse ">
                         	<!-- placement-tab/mobile-contents -->
                          	<div class="panel-body">
@@ -99,10 +101,10 @@
 					                    <div><a href="whymec.php">Why MEC</a></div>
 					                    <div><a href="placement-stats.php">Placement Stats</a></div>
 					                    <div><a href="pc-act.php">Activities</a></div>
-					                    <div><a href="#">We Provide</a></div>
 					                    <div><a href="brochure.php">Brochure</a></div>
 					                   	<div><a href="recruit.php">Our Recruiters</a></div>
 					                   	<div><a href="student-verification.php">Student Record Verfication</a></div>
+					                   	<div><a href="reg.php">Company Registration</a></div>
 					                   	<div><a href="place.php">Contact Details</a></div>
                     
                     				</div>
@@ -112,11 +114,15 @@
 					</li>
 									
 
-					<li   class="navlinks  "><a  data-toggle="collapse" data-parent="#nav-parent" id="nav6" ><i class="fa fa-plus-square" style="font-size:70%;position:relative;right:3px;"></i><i class="fa fa-user" style="font-size:110%;position:relative;right:4px;"></i>Admission</a>
+					<li   class="navlinks  "><a  class="custom-link " data-href="admission.php" data-toggle="collapse" data-parent="#nav-parent" id="nav6" ><i class="fa fa-plus-square" style="font-size:70%;position:relative;right:3px;"></i><i class="fa fa-user" style="font-size:110%;position:relative;right:4px;"></i>Admission</a>
 	                 	<div id="nav-cont5" class="panel-collapse collapse ">
 	                 		<!-- admission-tab/mobile-contents -->
 	                 		<div class="panel-body">
 					           	 <p>
+					           	 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+				                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a href="admission.php">more....</a>
 					           	 </p>
 		           			</div>
 		           		</div>
@@ -152,12 +158,12 @@
 	            
 	           	<h2 class="heading">Student's Corner</h2>
 	            
-             	<div  class="popdiv-contstyle twntfve">
+             	<div  class="popdiv-contstyle fifty">
              		<div  class="panel-vertical">
 		                <div><a href="clubs.php">Student Clubs</a></div>
-	                    <div><a href="clubs.php">Arts</a></div>
-	                    <div><a href="clubs.php">Sports</a></div>
-	                    <div><a href="clubs.php">Excel</a></div>
+	                    <div><a href="arts.php">Arts</a></div>
+	                    <div><a href="sports.php">Sports</a></div>
+	                    <div><a href="www.excelmec.org">Excel</a></div>
 	               	</div>
              	</div>
 	            
@@ -165,7 +171,7 @@
 
                 	<div  class="panel-vertical" >
                 	<div class="rightside">
-                		<div id="EXCEL">
+                		<div id="Student-Clubs">
                 		<h3 class="heading2">Student Clubs</h3>
 		                <p>
 
@@ -176,7 +182,7 @@
 		                </p>
 		                </div>
 
-		                <div id="IEEE" class="hide">
+		                <div id="Arts" class="hide">
                 		<h3 class="heading2">Arts</h3>
 		                <p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -186,7 +192,7 @@
 		                </p>
 		                </div>
 
-		                <div id="MACS" class="hide">
+		                <div id="Sports" class="hide">
                 		<h3 class="heading2">Sports</h3>
 		                <p>
 
@@ -197,7 +203,7 @@
 		                </p>
 		                </div>
 
-		                <div id="EMF" class="hide">
+		                <div id="Excel" class="hide">
                 		<h3 class="heading2">Excel</h3>
 		                <p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -366,7 +372,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 	                    
 	                    <div><a href="brochure.php">Brochure</a></div>
 	                   	<div><a href="recruit.php">Our Recruiters</a></div>
-	                   	<div><a href="student-verification.php">Student Record Verfication</a></div>
+	                   	<div><a href="student-verification.php">Student Record Verification</a></div>
+	                   	<div><a href="reg.php">Company Registration</a></div>
 	                   	<div><a href="place.php">Contact Details</a></div>
         
                 	</div>
@@ -432,8 +439,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 		                </p>
 		                </div>
 
-		                <div id="Student-Records" class="hide">
+		                <div id="Student-Record-Verification" class="hide">
                 		<h3 class="heading2">Student Record Verification</h3>
+		                <p>
+
+		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
+		                </p>
+		                </div>
+
+		                <div id="Company-Registration" class="hide">
+                		<h3 class="heading2">Company Registration</h3>
 		                <p>
 
 		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
