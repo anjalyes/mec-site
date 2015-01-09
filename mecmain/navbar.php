@@ -63,6 +63,7 @@
 					                    <div><a href="pta.php">PTA</a></div>
 					                    <div><a href="principal.php">Principal</a></div>
 					                     <div><a href="senate.php">Senate</a></div>
+					                     <div><a href="academic-charge.php">Academic-In-Charge</a>
 					                    
                     
                     				</div>
@@ -103,7 +104,7 @@
 					                    <div><a href="pc-act.php">Activities</a></div>
 					                    <div><a href="brochure.php">Brochure</a></div>
 					                   	<div><a href="recruit.php">Our Recruiters</a></div>
-					                   	<div><a href="student-verification.php">Student Record Verfication</a></div>
+					                   	<div><a href="student-verification.php">Student Record Verification</a></div>
 					                   	<div><a href="reg.php">Company Registration</a></div>
 					                   	<div><a href="place.php">Contact Details</a></div>
                     
@@ -228,6 +229,7 @@
 		                <div><a href="pta.php">PTA</a></div>
 	                    <div><a href="principal.php">Principal</a></div>
 	                    <div><a href="senate.php">Senate</a></div>
+	                    <div><a href="academic-charge.php">Academic-In-Charge</a></div>
                 
                 	</div>
              	</div>
@@ -267,6 +269,18 @@
 		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
 		                </p>
 		                </div>
+
+		                <div id="Academic-in-charge" class="hide">
+                		<h3 class="heading2">Academic-in-charge</h3>
+		                <p>
+
+		                 	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+		                 	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		                 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		                 	  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum <a>more....</a>
+		                </p>
+		                </div>
+
 
 
 		                </div>
