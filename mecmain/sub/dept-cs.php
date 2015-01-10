@@ -161,7 +161,7 @@
               <p> Associate Professor </p>
             </div>
              <div class="hidden-xs">            
-            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1"Murali Mohanan</h4>
+            <img src="images/photo.jpg" class=" imag img img-responsive"> <h4 class="line1">Murali Mohanan</h4>
             <p>&nbsp;&nbsp;&nbsp; Associate Professor </p>
           </div>
 
@@ -424,7 +424,7 @@ Computer Graphics lab, Image Processing Lab etc are some of the resources under 
 
           <div id="associations" class="tab-pane fade">
             <h4 class="line">MACS </h4><br>
-            <img src="images/macs.jpg" style="float:right; margin-right:5px; margin-left:5px; height:20%; width:20%;" />
+            <img src="images/clubs/macs.png" style="float:right; margin-right:5px; margin-left:5px; height:20%; width:20%;" />
             <p> MEC Association of Computer Students (MACS) was created by the students of the Department of Computer Science and Engineering. MACS was conceived with a vision to inculcate aptitude for the subject among students and create an awareness about the intricacies of the field. It aims to educate the students on the advancements in the industry and learn concepts that aren't part of the curriculum. </p>
             <p>MACS facilitates the participation of students in inter-college events and initiates similar events in the college. The association is presently involved in a couple of projects and activities that are associated with the day to day functioning of the college. It maintains the web, mail and DNS servers in the college, along with the official website.</p>
             <p>The 'Linux Week' is conducted every year by MACS to get the students and the public introduced and familiarized with the operating system. Foss meet @ MEC, the Free and Open Source Software meet was conducted for the first time at the college campus as part of the annual Tech fest of Model Engineering College - Excel 2k9. The meet is an event that brings together FOSS enthusiasts from all over to share their ideas and help promote the FOSS movement.</p>

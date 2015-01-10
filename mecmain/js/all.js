@@ -3,6 +3,11 @@ var docElem = window.document.documentElement;
 $(document).ready(function(){
 
    
+
+  
+
+
+
 	 var $timeline_block = $('.cd-timeline-block');
 
 
@@ -85,10 +90,13 @@ $(document).ready(function(){
     
 
     var win_width = $(window).width(); /*checking initially to switch accordion/hover effect*/
-  
+    var givelinks=true;
     if((win_width + sclbar_width)<768)
     {   
+      givelinks=false;
       /*adding accordion effect and removing hover box(popdiv) if <768px initially*/
+       $("#navigation a[data-parent='#nav-parent']").removeClass("custom-link");
+    
         $(".navlinks").addClass("panel ");
         $("#nav-parent").addClass("panel-group").removeClass("nav-justified");
         $("#popdiv").css({"display":"none"});
@@ -101,13 +109,16 @@ $(document).ready(function(){
 
     else
     {   /*removing accordion effect*/ 
+      givelinks=true;
         $(".navlinks").removeClass("panel");
+      $("#navigation a[data-parent='#nav-parent']").addClass("custom-link");
         $("#nav-parent").removeClass("panel-group").addClass("nav-justified");
         for(var i=0;i<6;i++)
         {
           $("#nav" + (i+1)).removeAttr("href");
     
         }
+
 
     }
 
@@ -187,6 +198,7 @@ $(document).ready(function(){
   
       if((win_width + sclbar_width)< 768)//changing navbar effects accordingly
       { 
+        givelinks=false;
         grtr = false;
         if(!lessr)
           {
@@ -195,6 +207,7 @@ $(document).ready(function(){
                 $("#popdiv").css({"display":"none"});/*removing hover box*/
 
                 /*adding accordion effect*/
+                $("#navigation a[data-parent='#nav-parent']").removeClass("custom-link");
                 $(".navlinks").addClass("panel");
               $("#nav-parent").addClass("panel-group").removeClass("nav-justified");
               for(var i=0;i<6;i++)
@@ -208,6 +221,7 @@ $(document).ready(function(){
 
       if((win_width + sclbar_width)>= 768)
       {  
+        givelinks=true;
           lessr=false;
           if(!grtr)
           {      
@@ -220,6 +234,7 @@ $(document).ready(function(){
                           
                          /*removing accordion effect*/ 
          $(".navlinks").removeClass("panel");
+         $("#navigation a[data-parent='#nav-parent']").addClass("custom-link");
          $("#nav-parent").removeClass("panel-group").addClass("nav-justified");
          $("#navbar-main").removeClass("in")
           for(var i=0;i<6;i++)
@@ -426,6 +441,19 @@ $("#popdiv a").hover(function ()
   );
 
 
+
+     //links in accordion
+      var base="www.mec.ac.in/mec/test";  //change here
+
+ $("#navigation #nav-parent .custom-link").click(function()
+        {
+          if(givelinks)
+          {
+            
+          window.location= $(this).attr("data-href");
+          }
+          
+        });
 
 
 //clubs

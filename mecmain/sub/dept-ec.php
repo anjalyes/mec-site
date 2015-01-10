@@ -498,15 +498,13 @@ First Class
               <p><span style="font-weight:400;">Office bearers</span></p>
                <p><span style="font-weight:100;">Chief  Staff Advisor</span></p>  
                <p>Jagadeesh Kumar P, Dept. of Electronics<br>
-                 Mohammed Aslam V G</p>
-                 <p><span style="font-weight:100;">Chairperson</span>      </p>  
-                 <p>  mohammedaslamvg@google.com<br>
-                  +91 8891089109</p>
+                <p><span style="font-weight:100;">Chairman</span>      </p>  
+                 <p>  Basil Alias </p> 
                    <p><span style="font-weight:100;">Secretary</span>    </p>
-                   <p> aparnagibson@gmail.com<br>
-                      8547328603</p>
-                    <p><span style="font-weight:100;">Treasurer</span>   </p>
-                    <p>  Arjun B</p>
+                   <p>    Yacob Charly </p>
+                    <p><span style="font-weight:100;">Treasurer</span> </p>
+                    <p> Bhaswath N</p>
+                 
                     
           </div>
                          

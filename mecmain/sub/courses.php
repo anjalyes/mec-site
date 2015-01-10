@@ -1,23 +1,23 @@
 <div id="courses">
 	<h3>B-Tech Courses</h3>
 	<div class="box1 spcl">
-		<p><b>B.Tech in Computer Science &amp; Engineering :</b> This course imparts an outstanding educational opportunity for those planning to pursue a career or to gain in-depth knowledge in computing technology and research.
+		<p><a href="comp.php"><b>B.Tech in Computer Science &amp; Engineering :</b></a> This course imparts an outstanding educational opportunity for those planning to pursue a career or to gain in-depth knowledge in computing technology and research.
 			Its foremost objective is to hone technical skills demanded by today's engineering professionals by providing a sound technical platform and the required knowledge base.
 		</p>
 	</div>
 	<div class="box1">
-		<p><b>B.Tech in Electronics and Communication Engineering : </b>The Electronics and Communication Engineering curriculum is designed to give adequate emphasis on application of Electronics in Communication Systems and Signal Processing. 
+		<p><a href="ec.php"><b>B.Tech in Electronics and Communication Engineering : </b></a>The Electronics and Communication Engineering curriculum is designed to give adequate emphasis on application of Electronics in Communication Systems and Signal Processing. 
 			It has also been a Microchip Consultant Program member since June 2005. 
 			Well equipped labs facilitated with the EDWIN Software and Virtual Modelling Software to carry out research projects.
 		</p>
 	</div>
 	<div class="box1">
-		<p><b>B.Tech in Electronics and Biomedical Engineering :</b> This course covers the basics required to help one get started in Biomedical Engineering.
+		<p><a href="bio.php"><b>B.Tech in Electronics and Biomedical Engineering :</b> </a>This course covers the basics required to help one get started in Biomedical Engineering.
 		 Over a period of 4 years, it covers a vast domain of areas in Electronics and Biomedical like Medical Physics, Signal Processing, Image Processing, Electronic Circuits, VLSI Design etc required in the Biomedical Field.
 		</p>
 	</div>
 	<div class="box1">
-		<p><b>B.Tech in Electrical and Electronics Engineering : </b>This course draws from both Electrical and Electronics Engineering concepts. 
+		<p><a href="eee.php"><b>B.Tech in Electrical and Electronics Engineering : </b></a>This course draws from both Electrical and Electronics Engineering concepts. 
 			Power Systems, VLSI Design, Control Systems, Power Electronics,Computer Communications, Network Theory, High Voltage DC Transmission ,Analog and Digital Circuits, C++ are some of the subjects in the syllabus. 
 			This proves to be an attractive blend of Electrical and Electronics. 
 		</p>

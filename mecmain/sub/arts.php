@@ -15,7 +15,7 @@
                    
                   </h4>
                 </div>
-                <div id="aboutus" class="panel-collapse collapse in">
+                <div id="well aboutus" class="panel-collapse collapse in">
                   <div class="panel-body">
                     <p>
                     The arts club is very active and provides a big platform to expose all the talents and give equal opportunities to all the students to bring up their skills in every creative perspective. Apart from the college arts fest, there is lot of inter-college events in which the college has actively participated and won. The club is responsible for organizing all the arts events and the annual arts in our college	

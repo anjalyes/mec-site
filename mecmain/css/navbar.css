@@ -1,3 +1,8 @@
+
+
+
+
+
 html,body
 {
 padding: 0px;
@@ -6,7 +11,7 @@ width: 100%;
 height: 100%;
 background-color: #E9EAEB;
 font-family: "lato";
-font-size: 18px;
+
 }
 
 
@@ -39,7 +44,7 @@ font-size: 18px;
 
 #popdiv h2
 {
-font-size: 31px;
+font-size: 3em;
 }
 
 #popdiv h3
@@ -51,7 +56,7 @@ font-size:2em;
 {
 display:none;
 position:absolute;
-background-color:rgba(3,113,164,0.7);
+background-color:rgba(3,113,164,0.9);
 height:380px;
 z-index:100;
 width:100%;
@@ -116,7 +121,7 @@ text-align:justify;
 {
 	color: white;
 	font-weight: 300;
-
+	font-size: 17px;
 }
 
 #navigation .panel-body a:hover
@@ -130,7 +135,7 @@ text-align:justify;
  padding-bottom: 12px;
  line-height: 5px;
  font-weight: 300;
- font-size: 18px;
+ font-size: 17px;
 }
 
 #navigation .panel-style2
@@ -153,13 +158,14 @@ display:table;
 
 #navigation p
 {
-	font-size: 18px;
+	font-size: 16px;
+	font-weight: 300;
 }
 
 #navigation a
 {
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 17px;
 }
 
 #poopdiv .panel-vertical a
@@ -183,7 +189,7 @@ display:table;
 #navigation .popdiv-contstyle
 {
 padding:5%;
-padding-top: 4.7%;
+padding-top: 7.7%;
 float:left;
 display:table;
 height:380px;

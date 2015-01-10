@@ -4,7 +4,7 @@
 	<h3>		Tenders </h3>
 		<div class="box1">
 			
-			<p>Some contents generally saying about tenders. Content team must add this </p>
+			<p>Following tenders are invited by the college:</p>
 			
 			<br>
 			<br>

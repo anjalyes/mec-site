@@ -11,22 +11,22 @@
 					<div class="cbp-qtcontent">
 						<div class=logos><img src="images/factset.png" alt="img02" /></div>
 						<blockquote>
-						  <p>Great atmosphere (These are test post only)</p>
+						  <p>MEC ROCKS!!!</p>
 						  <footer>Factset</footer>
 						</blockquote>
 					</div>
 					<div class="cbp-qtcontent">
-						<div class=logos><img src="images/deloitte.png" alt="img03" /></div>
+						<div class=logos><img src="images/nvidia.png" alt="img03" /></div>
 						<blockquote>
-						  <p>Random text by Deolite.</p>
-						  <footer>Deolite</footer>
+						  <p>Really great.<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspYou guys go the extra mile.Appreciate it.</p>
+						  <footer>Nvidia</footer>
 						</blockquote>
 					</div>
 					<div class="cbp-qtcontent">
-						<div class=logos><img src="images/oracle.png" alt="img04" /></div>
+						<div class=logos><img src="images/ericsson.png" alt="img04" /></div>
 						<blockquote>
-						  <p>This campus is great.</p>
-						  <footer>Oracle</footer>
+						  <p>Unique students with the best skills for networked society.</p>
+						  <footer>Ericsson</footer>
 						</blockquote>
 					</div>
 				</div>
@@ -74,7 +74,7 @@
 				
 				<nav class="nav-thumbflip">
 					
-					<a class="next pull-right"  href="/item3">
+					<a class="next pull-right"  href="placement-stats.php">
 						<span class="icon-wrap"><svg class="icon" width="32" height="32" viewBox="0 0 64 64"><use xlink:href="#arrow-right-5"></svg></span>
 						<img src="images/placement.jpg" alt="Next thumb"/>
 					</a>

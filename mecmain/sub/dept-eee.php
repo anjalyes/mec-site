@@ -298,7 +298,7 @@
 
           <div id="associations" class="tab-pane fade">
             <h4 class="line">Electrical Association </h4><br>
-            <img src="images/eee.jpg" style="float:right; margin-right:5px; margin-left:5px; height:20%; width:20%;" />
+            <img src="images/clubs/eee.png" style="float:right; margin-right:5px; margin-left:5px; height:20%; width:20%;" />
             <p>Electrical Minds Forum (EMF) is the society of the students of the department of Electrical and Electronics Engineering. It aims to act as a bridge between the students and the strides made in the industry. EMF, the Electrical Association of Model Engineering College is the joint venture of the staff and students of Electrical and Electronics Department.</p>
             <p>Electrical Minds Forum (EMF) of Govt. Model Engineering College is a noble attempt to create a platform on which one can discuss ideas, practice and articulate a shared vision for progress in the areas of interest. EMF will aid thought provoking interactions and motivate the students to excel. EMF will help in achieving career goals, technological innovation and continuous improvement. Our primary objective is to develop a passion in students for electrical and electronics engineering and help them achieve their goals. As an organization at the campus level, we aspire to create a platform for students to showcase their ideas and skills, assist them in their work and keep them abreast on all the developments in the field. In addition to enhancing the technical background of students, we also give due importance in developing their organizational and management skills. Our goal is to mould a smarter generation of Electrical and Electronics Engineers.</p>
             <p>EMF brings together eminent personalities from organizations of high repute such as Kerala State Electricity Board (KSEB) and enables students to engage in interactions with them.EMF has initiated in conducting workshops, interactive seminar sessions,PCB design workshops, lectures consistently every year in MEC.</p>
@@ -306,19 +306,19 @@
             <p>"Lego Ingenum" or "Empower Talent”, an event based on Electricity Conservation was held by the inaugural EMF members in association with The KSEB Engineers Association. Various competitions were held to spread the necessity of Energy Conservation which attracted number of student participants from all over Kerala.</p>
              <p><span style="font-weight:400;">Office bearers</span></p>
                <p><span style="font-weight:100;">Chief  Staff Advisor</span></p>  
-               <p>Arun Prasad,Dept of Electrical and Electronics</p>
+               <p>Arun Prasad, Dept of Electrical and Electronics</p>
                  <p><span style="font-weight:100;">Chairman</span>      </p>  
-                 <p>  Anees Mohammed</p>
+                 <p>  Shanon Francis Babu </p> 
                    <p><span style="font-weight:100;">Secretary</span>    </p>
-                   <p>  Swetha R </p>
+                   <p>    Geethanjali T </p>
                     <p><span style="font-weight:100;">Event coordinator</span> </p>
-                    <p> Anju K J</p>
+                    <p> Kevin Jacob</p>
                     <p><span style="font-weight:100;">Techincal head</span> </p>
-                    <p> Sanjay</p>
+                    <p> Crisin John</p>
                     <p><span style="font-weight:100;">Treasurer</span> </p>
-                    <p> Asiya Rehman </p>
+                    <p> Sreenath C. </p>
                     <p><span style="font-weight:100;">Web admin</span> </p>
-                    <p> Sandeep S </p>
+                    <p> Midhun Krishna.V.R. </p>
                     
 
 
