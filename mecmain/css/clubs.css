@@ -1,14 +1,5 @@
-/* -------------------------------- 
 
-Primary style
 
--------------------------------
-
--------------------------------- 
-
-Modules - reusable parts of our design
-
--------------------------------- */
 .heading-main
 {
  
@@ -158,6 +149,41 @@ bottom: 50px;
 }
 
 /*upto here ok*/
+.cd-timeline-img {
+ -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+
+/*image view at full width*/
+.cd-timeline-img .img-container {
+ position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.cd-timeline-img .img-container img
+{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+#macspic,#mixedsignalspic,#emfpic,#yipic,#illuminatipic,#ietepic,#thanalpic,#nsspic,#checkmatepic
+{
+  border-radius: 25%;
+}
+
 
 @media (max-width:699px){
 
@@ -180,11 +206,16 @@ left:18px;
 }
 
 
+  .img-container
+  {
+      width: 45px;
+    height: 45px;
+  }
+
 /*image view at full width*/
 .cd-timeline-img img {
   display: block;
-  width: 60px;
-  height: 60px;
+ 
   position: relative;
   
   /*changed*/
@@ -193,117 +224,6 @@ left:18px;
   margin-left: 0px;
   margin-top: 0px;
 }
-.cd-timeline-img #macs
-{
-  position: relative;
-  top:22px;
-  width: 60px;
-  height:20px;
-}
-
-.cd-timeline-img #mixedsignals
-{
-  position: relative;
-  top:22px;
-  width: 60px;
-  height:20px;
-}
-
-.cd-timeline-img #illuminati
-{
-  position: relative;
-  top:22px;
-  width: 60px;
-  height:20px;
-}
-
-.cd-timeline-img #thanal
-{
-  position: relative;
-  top:22px;
-  width: 60px;
-  height:20px;
-}
-
-.cd-timeline-img #terminal
-{
-  position: relative;
-  top:22px;
-  width: 60px;
-  height:20px;
-}
-
-.cd-timeline-img #emf
-{
-  position: relative;
-  top:22px;
-  width: 60px;
-  height:20px;
-}
-
-.cd-timeline-img #yi
-{
-  position: relative;
-  top:22px;
-  width: 60px;
-  height:20px;
-}
-
-.cd-timeline-img #iete
-{
-
-  width: 60px;
-  height:57.75px;
-  border-radius: 50%;
-}
-
-.cd-timeline-img #ieee
-{
-  position: relative;
-  top:22px;
-  width: 60px;
-  height:20px;
-}
-
-.cd-timeline-img #ecell
-{
-  position: relative;
-  top:15px;
-  width: 60px;
-  height:32px;
-}
-
-.cd-timeline-img #tree
-{
-  position: relative;
-  top:-5px;
-  width: 60px;
-  height:60px;
-}
-
-.cd-timeline-img #nss
-{
-  width: 60px;
-  height:60px;
-}
-
-.cd-timeline-img #bma
-{
-  position: relative;
-  top: 10px;
-  width:60px;
-  height:38px;
-}
-
-.cd-timeline-img #thirdeye
-{
-  position: relative;
-  top:3px;
-  left:-1px;
-  width: 60px;
-  height:50px;
-}
-
 
 }
 
@@ -323,11 +243,16 @@ left:18px;
 }
 
 
+  .img-container
+  {
+     width: 75px;
+    height: 75px;
+  }
+
 /*image view at full width*/
 .cd-timeline-img img {
   display: block;
-  width: 80px;
-  height: 80px;
+  
   position: relative;
   
   /*changed*/
@@ -337,69 +262,6 @@ left:18px;
   margin-top: 0px;
 }
 
-.cd-timeline-img #iete
-{
-  position:relative;
-  left:5px;
-  top:5px;
-  width: 80px;
-  height:77px;
-  border-radius: 40%;
-}
-
-.cd-timeline-img #ieee
-{
-  position: relative;
-  top:32px;
-  left:5px;
-  width: 80px;
-  height:26px;
-}
-
-.cd-timeline-img #ecell
-{
-  position: relative;
-  top:25px;
-  left:5px;
-  width: 80px;
-  height:42px;
-}
-
-.cd-timeline-img #tree
-{
-  position: relative;
-  top:-5px;
-  left:5px;
-  width: 80px;
-  height:80px;
-}
-
-.cd-timeline-img #nss
-{
-  position: relative;
-  top:5px;
-  left:5px;
-  width: 80px;
-  height:80px;
-}
-
-.cd-timeline-img #bma
-{
-  position: relative;
-  top: 15px;
-  left:5px;
-  width:80px;
-  height:50px;
-}
-
-.cd-timeline-img #thirdeye
-{
-  position: relative;
-  top:10px;
-  left:3px;
-  width: 80px;
-  height:66px;
-}
 }
 
 
@@ -421,6 +283,13 @@ left:18px;
     -webkit-backface-visibility: hidden;
   }
   
+
+  .img-container
+  {
+     width: 110px;
+    height: 110px;
+  }
+
   .cd-timeline-img img {
   display: block;
   
@@ -434,68 +303,6 @@ left:18px;
 }
 
 
-.cd-timeline-img #iete
-{
-position: relative;
-  top:5px;
-  left:4%;
-  width: 120px;
-  height:115px;
-  border-radius: 50%;
-}
-
-.cd-timeline-img #ieee
-{
-  position: relative;
-  top:40px;
-  width: 120px;
-  height:35px;
-}
-
-.cd-timeline-img #ecell
-{
-  position: relative;
-  top:23%;
-  left:5%;
-  width: 120px;
-  height:62.8px;
-}
-
-.cd-timeline-img #tree
-{
-  
-  position: relative;
-  
-  left:4%;
-  width: 120px;
-  height:120px;
-}
-
-.cd-timeline-img #nss
-{
-  position: relative;
-  top:5px;
-  left:4%;
-  width: 120px;
-  height:120px;
-}
-
-.cd-timeline-img #bma
-{
-  position: relative;
-  top: 20%;
-  width: 120px;
-  height:75px;
-}
-
-.cd-timeline-img #thirdeye
-{
-  position: relative;
-  top:5%;
-  left: 0px;
-  width: 120px;
-  height:98px;
-}
 
   .cssanimations .cd-timeline-img.is-hidden {
     visibility: hidden;
