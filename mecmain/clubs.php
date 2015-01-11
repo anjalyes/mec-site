@@ -21,6 +21,7 @@
 
 		
 		<link rel="stylesheet" type="text/css" href="css/clubs.css">
+		<link rel="stylesheet" type="text/css" href="css/modal.css">
 		
 		<link rel="stylesheet" type="text/css" href="css/navbar.css">
 		<link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -36,6 +37,7 @@
 		
 		<script type="text/javascript" src="js/modernizr.js"></script>
 		<script type="text/javascript" src="js/jquery-scrolltofixed-min.js"></script>
+		
 		<script type="text/javascript" src="js/all.js"></script>
 
 	 	<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAcLBJKn2oBYKA4-cZmFdCHhRL_7KohsGF-YD0P0z9OieqAgXBaxSYdP8SMgLJCA0qCqnWK7-Zm9CQew" type="text/javascript"></script>
@@ -48,7 +50,7 @@
 		<?php include "navbar.php" ?>
 			<?php include "sub/clubs.php" ?>
 		<?php include "footer.php" ?>
-
-
+		<div class="md-overlay"></div><!-- the overlay element -->
+		<script type="text/javascript" src="js/modalEffects.js"></script>
 	</body>
 </html>
