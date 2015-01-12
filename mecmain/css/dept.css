@@ -1,3 +1,10 @@
+
+#dept{
+  margin-bottom: 10%;
+}
+
+
+
 #dept h2{
   color:#16a085;
   padding-left: 12%;
@@ -69,7 +76,7 @@
 
 #dept p, li{
   text-align: justify;
-  padding-right: 30px;
+  padding-right: 3%;
 }
 
 #dept #about, #hod, #faculty, #facilities, #resources, #associations, #achievements{
@@ -105,7 +112,7 @@ text-align: justify;
 
 #dept .line{
   border-bottom: 2px solid #16a085;
-  margin-right: 25px;
+  margin-right: 3%;
 }
 
 #dept .imag{
@@ -130,6 +137,17 @@ text-align: justify;
   margin-left: 96px;  
 }
 
-/*anjaly*/
+@media (max-width: 580px){
+  .nopadding
+{
+  padding-left:4%;
+  padding-right: 4%;
+}
 
-@media 
+
+#dept .mypanel {
+  margin-left: 0%;
+    margin-right: 0%
+}
+
+}
