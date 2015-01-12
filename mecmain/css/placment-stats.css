@@ -1,9 +1,14 @@
 #placementstats
 {
 	background-color: white;
+	margin: 9%;
+
 }
 
-
+.nopadding
+{
+	padding: 0px;
+}
 #placementstats .placebox
 {
 	padding:3%;
@@ -57,4 +62,14 @@
 	{
 		font-size:14px;
 	}
+}
+
+
+@media (max-width: 580px){
+	#placementstats
+	{
+		margin-right: 4%;
+	margin-left: 4%;
+	}
+
 }
