@@ -53,9 +53,9 @@
 		</div>
 	</div>
 <div class="container" style="margin-bottom:5%;">
-	<div class="row" style="margin:9%;" >
+	<div class="row">
 
-	  	<div class="col-md-12" >
+	  	<div class="col-md-12 nopadding" >
 
 	  	<?php include "sub/placement-stats.php" ?>
 		</div>
